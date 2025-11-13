@@ -1,0 +1,48 @@
+# Configuration file for Conference Deadline Notification Agent
+# Note: Sensitive values (API keys, emails) should be set via environment variables
+
+# Email Configuration
+email:
+  # FROM_EMAIL - Sender email (must be verified domain in Resend)
+  # Set via environment variable: FROM_EMAIL
+  from_email: ""
+
+  # TO_EMAIL - Recipient email address
+  # Set via environment variable: TO_EMAIL
+  to_email: ""
+
+  # FROM_NAME - Display name for sender (optional)
+  # Set via environment variable: FROM_NAME
+  from_name: "Conference Deadline Bot"
+
+# Resend API Configuration
+resend:
+  # RESEND_API_KEY - Your Resend API key
+  # Set via environment variable: RESEND_API_KEY
+  # Get your key from: https://resend.com/api-keys
+  api_key: ""
+
+# Deadline Settings
+deadlines:
+  # Number of days ahead to check for deadlines
+  days_ahead: 30
+
+# Data Sources
+data:
+  # Path to AI conference data file
+  ai_conferences: "data/ai-conferences.yml"
+
+  # Path to security conference data file
+  security_conferences: "data/security-conferences.yml"
+
+# Template
+template:
+  # Path to email HTML template
+  path: "templates/email_template.html"
+
+# Notes:
+# 1. DO NOT commit sensitive values to git
+# 2. Use environment variables for API keys and email addresses
+# 3. Update conference data files periodically from upstream sources:
+#    - AI: https://github.com/huggingface/ai-deadlines
+#    - Security: https://github.com/sec-deadlines/sec-deadlines.github.io

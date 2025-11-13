@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conference Deadline Reminder</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .container {
+            background-color: white;
+            border-radius: 8px;
+            padding: 30px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #2c3e50;
+            border-bottom: 3px solid #3498db;
+            padding-bottom: 10px;
+            margin-top: 0;
+        }
+        h2 {
+            color: #2980b9;
+            margin-top: 30px;
+            margin-bottom: 15px;
+        }
+        .summary {
+            background-color: #e8f4f8;
+            border-left: 4px solid #3498db;
+            padding: 15px;
+            margin-bottom: 30px;
+            border-radius: 4px;
+        }
+        .conference {
+            background-color: #fafafa;
+            border: 1px solid #ddd;
+            border-radius: 6px;
+            padding: 20px;
+            margin-bottom: 25px;
+        }
+        .conference-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: start;
+            margin-bottom: 15px;
+        }
+        .conference-title {
+            font-size: 1.3em;
+            font-weight: bold;
+            color: #2c3e50;
+            margin: 0;
+        }
+        .conference-year {
+            background-color: #3498db;
+            color: white;
+            padding: 4px 12px;
+            border-radius: 4px;
+            font-weight: bold;
+            font-size: 0.9em;
+        }
+        .conference-info {
+            margin: 10px 0;
+            color: #555;
+        }
+        .info-label {
+            font-weight: 600;
+            color: #2c3e50;
+        }
+        .deadlines {
+            margin-top: 15px;
+        }
+        .deadline-item {
+            background-color: white;
+            border-left: 4px solid #e74c3c;
+            padding: 12px 15px;
+            margin: 10px 0;
+            border-radius: 4px;
+        }
+        .deadline-item.urgent {
+            border-left-color: #e74c3c;
+            background-color: #fef5e7;
+        }
+        .deadline-item.soon {
+            border-left-color: #f39c12;
+            background-color: #fef9e7;
+        }
+        .deadline-item.upcoming {
+            border-left-color: #27ae60;
+            background-color: #eafaf1;
+        }
+        .deadline-type {
+            font-weight: 600;
+            color: #2c3e50;
+            text-transform: capitalize;
+        }
+        .deadline-date {
+            font-size: 1.1em;
+            color: #e74c3c;
+            font-weight: bold;
+            margin: 5px 0;
+        }
+        .days-until {
+            font-size: 0.9em;
+            color: #7f8c8d;
+            font-weight: 600;
+        }
+        .tags {
+            margin-top: 10px;
+        }
+        .tag {
+            display: inline-block;
+            background-color: #ecf0f1;
+            color: #555;
+            padding: 4px 10px;
+            border-radius: 12px;
+            font-size: 0.85em;
+            margin-right: 6px;
+            margin-top: 4px;
+        }
+        .tag.ai {
+            background-color: #d5e8f7;
+            color: #2874a6;
+        }
+        .tag.security {
+            background-color: #fadbd8;
+            color: #943126;
+        }
+        .comment {
+            background-color: #fff3cd;
+            border-left: 3px solid #ffc107;
+            padding: 10px 15px;
+            margin-top: 10px;
+            border-radius: 4px;
+            font-size: 0.9em;
+        }
+        .link {
+            color: #3498db;
+            text-decoration: none;
+            font-weight: 500;
+        }
+        .link:hover {
+            text-decoration: underline;
+        }
+        .footer {
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid #ddd;
+            text-align: center;
+            color: #7f8c8d;
+            font-size: 0.9em;
+        }
+        @media (max-width: 600px) {
+            body {
+                padding: 10px;
+            }
+            .container {
+                padding: 15px;
+            }
+            .conference-header {
+                flex-direction: column;
+            }
+            .conference-year {
+                margin-top: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>📅 Conference Deadline Reminder</h1>
+
+        <div class="summary">
+            <strong>{{ summary_count }} conferences</strong> with deadlines in the next 30 days
+        </div>
+
+        {% for item in conferences %}
+        <div class="conference">
+            <div class="conference-header">
+                <div>
+                    <div class="conference-title">{{ item.conference.full_name }}</div>
+                    <div class="conference-info">
+                        <span class="info-label">📍 Location:</span> {{ item.conference.place }}
+                    </div>
+                    <div class="conference-info">
+                        <span class="info-label">📆 Conference:</span> {{ item.conference.date_str }}
+                    </div>
+                    <div class="conference-info">
+                        <a href="{{ item.conference.link }}" class="link" target="_blank">🔗 Conference Website</a>
+                    </div>
+                </div>
+                <div class="conference-year">{{ item.conference.year }}</div>
+            </div>
+
+            {% if item.conference.tags %}
+            <div class="tags">
+                {% for tag in item.conference.tags %}
+                <span class="tag {% if item.conference.source == 'ai' %}ai{% else %}security{% endif %}">{{ tag }}</span>
+                {% endfor %}
+            </div>
+            {% endif %}
+
+            <div class="deadlines">
+                <strong>⏰ Upcoming Deadlines:</strong>
+                {% for deadline in item.deadlines %}
+                <div class="deadline-item {% if deadline.days_until <= 3 %}urgent{% elif deadline.days_until <= 7 %}soon{% else %}upcoming{% endif %}">
+                    <div class="deadline-type">{{ deadline.type | replace('_', ' ') }}</div>
+                    <div class="deadline-date">{{ deadline.datetime_formatted }}</div>
+                    <div class="days-until">
+                        {% if deadline.days_until == 0 %}
+                        🔥 TODAY!
+                        {% elif deadline.days_until == 1 %}
+                        ⚠️ Tomorrow
+                        {% else %}
+                        📌 In {{ deadline.days_until }} days
+                        {% endif %}
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+
+            {% if item.conference.comment %}
+            <div class="comment">
+                <strong>Note:</strong> {{ item.conference.comment }}
+            </div>
+            {% endif %}
+        </div>
+        {% endfor %}
+
+        <div class="footer">
+            <p>This is an automated reminder sent every Monday at 6 AM.</p>
+            <p>Data sources: <a href="https://github.com/huggingface/ai-deadlines" class="link" target="_blank">Hugging Face AI Deadlines</a> |
+               <a href="https://sec-deadlines.github.io/" class="link" target="_blank">Security Deadlines</a></p>
+        </div>
+    </div>
+</body>
+</html>

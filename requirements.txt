@@ -1,0 +1,13 @@
+# Conference Deadline Notification Agent - Dependencies
+
+# YAML parsing
+PyYAML>=6.0.1
+
+# Timezone handling
+tzdata>=2024.1
+
+# Email sending via Resend
+resend>=2.0.0
+
+# HTML template rendering
+Jinja2>=3.1.3

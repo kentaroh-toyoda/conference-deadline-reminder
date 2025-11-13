@@ -1,0 +1,134 @@
+# Security and Privacy Conference Deadlines
+# Data structure based on sec-deadlines.github.io repository
+# To update: fetch from https://github.com/sec-deadlines/sec-deadlines.github.io
+
+- name: S&P
+  year: 2026
+  full_name: IEEE Symposium on Security and Privacy
+  description: IEEE Symposium on Security and Privacy (Oakland)
+  link: https://sp2026.ieee-security.org/
+  deadline:
+    - "2025-06-05 23:59"
+    - "2025-11-13 23:59"
+  timezone: AoE
+  comment: Abstract registration required (1 week before deadline AoE)
+  date: May 18-21, 2026
+  place: San Francisco, California, USA
+  tags: [SEC, PRIV, CONF, TOP4]
+
+- name: CCS
+  year: 2026
+  full_name: ACM Conference on Computer and Communications Security
+  description: ACM Conference on Computer and Communications Security
+  link: https://www.sigsac.org/ccs/CCS2026
+  deadline:
+    - "2026-01-14 23:59"
+    - "2026-04-29 23:59"
+  timezone: AoE
+  comment: Abstract registration required (1 week before deadline AoE)
+  date: November 15-19, 2026
+  place: The Hague, The Netherlands
+  tags: [SEC, PRIV, CONF, TOP4]
+
+- name: USENIX Security
+  year: 2026
+  full_name: USENIX Security Symposium
+  description: USENIX Security Symposium
+  link: https://www.usenix.org/conference/usenixsecurity26
+  deadline:
+    - "2025-08-26 23:59"
+    - "2026-02-05 23:59"
+  timezone: AoE
+  comment: Abstract registration required (1 week before deadline AoE)
+  date: August 12-14, 2026
+  place: Baltimore, MD, USA
+  tags: [SEC, PRIV, CONF, TOP4]
+
+- name: NDSS
+  year: 2026
+  full_name: ISOC Network and Distributed System Security Symposium
+  description: ISOC Network and Distributed System Security Symposium
+  link: https://www.ndss-symposium.org/ndss2026/
+  deadline:
+    - "2025-04-23 23:59"
+    - "2025-08-06 23:59"
+  timezone: AoE
+  comment: Abstract registration required (1 week before deadline AoE)
+  date: February 23-27, 2026
+  place: San Diego, CA, USA
+  tags: [SEC, PRIV, CONF, TOP4]
+
+- name: CRYPTO
+  year: 2025
+  full_name: International Cryptology Conference
+  description: International Cryptology Conference
+  link: https://crypto.iacr.org/2025/
+  deadline:
+    - "2025-02-13 23:59"
+  timezone: AoE
+  date: August 17-21, 2025
+  place: Santa Barbara, CA, USA
+  tags: [CRYPTO, CONF]
+
+- name: EUROCRYPT
+  year: 2025
+  full_name: European Cryptology Conference
+  description: European Cryptology Conference
+  link: https://eurocrypt.iacr.org/2025/
+  deadline:
+    - "2024-10-03 23:59"
+  timezone: AoE
+  date: May 4-8, 2025
+  place: Madrid, Spain
+  tags: [CRYPTO, CONF]
+
+- name: ASIACRYPT
+  year: 2025
+  full_name: International Conference on the Theory and Application of Cryptology and Information Security
+  description: International Conference on Theory and Application of Cryptology and Information Security
+  link: https://asiacrypt.iacr.org/2025/
+  deadline:
+    - "2025-05-14 23:59"
+  timezone: AoE
+  date: December 8-12, 2025
+  place: Taipei, Taiwan
+  tags: [CRYPTO, CONF]
+
+- name: PETS
+  year: 2025
+  full_name: Privacy Enhancing Technologies Symposium
+  description: Privacy Enhancing Technologies Symposium
+  link: https://petsymposium.org/
+  deadline:
+    - "2024-05-31 23:59"
+    - "2024-08-31 23:59"
+    - "2024-11-30 23:59"
+    - "2025-02-28 23:59"
+  timezone: AoE
+  date: July 14-18, 2025
+  place: Amsterdam, Netherlands
+  tags: [PRIV, CONF]
+
+- name: SOUPS
+  year: 2025
+  full_name: Symposium on Usable Privacy and Security
+  description: Symposium on Usable Privacy and Security
+  link: https://www.usenix.org/conference/soups2025
+  deadline:
+    - "2025-02-20 23:59"
+  timezone: AoE
+  date: August 10-12, 2025
+  place: Pittsburgh, PA, USA
+  tags: [PRIV, USEC, CONF]
+
+- name: ACSAC
+  year: 2025
+  full_name: Annual Computer Security Applications Conference
+  description: Annual Computer Security Applications Conference
+  link: https://www.acsac.org/
+  deadline:
+    - "2025-06-05 23:59"
+  timezone: AoE
+  date: December 8-12, 2025
+  place: Austin, TX, USA
+  tags: [SEC, CONF]
