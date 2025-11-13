@@ -34,7 +34,7 @@ jobs:
           FROM_EMAIL: ${{ secrets.FROM_EMAIL }}
           TO_EMAIL: ${{ secrets.TO_EMAIL }}
           FROM_NAME: ${{ secrets.FROM_NAME }}
-          DAYS_AHEAD: 30
+          DAYS_AHEAD: 180
         run: |
           python src/main.py
 

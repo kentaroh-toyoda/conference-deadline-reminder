@@ -25,7 +25,7 @@ resend:
 # Deadline Settings
 deadlines:
   # Number of days ahead to check for deadlines
-  days_ahead: 30
+  days_ahead: 180
 
 # Data Sources
 data:

@@ -1,0 +1,65 @@
+name: Update Conference Data
+
+on:
+  schedule:
+    # Run on the 1st day of each month at 6:00 AM UTC
+    - cron: '0 6 1 * *'
+  workflow_dispatch:  # Allow manual trigger
+
+permissions:
+  contents: write  # Required for committing changes
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  # Full history for proper commits
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Fetch and update conference data
+        id: update
+        run: |
+          python src/update_conferences.py
+          echo "Update script completed"
+
+      - name: Check for changes
+        id: check_changes
+        run: |
+          if git diff --quiet data/; then
+            echo "has_changes=false" >> $GITHUB_OUTPUT
+            echo "No changes detected in conference data"
+          else
+            echo "has_changes=true" >> $GITHUB_OUTPUT
+            echo "Changes detected in conference data"
+          fi
+
+      - name: Commit and push changes
+        if: steps.check_changes.outputs.has_changes == 'true'
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add data/*.yml
+          git commit -m "Update conference data from upstream sources"
+          git push
+
+      - name: Summary
+        run: |
+          if [ "${{ steps.check_changes.outputs.has_changes }}" == "true" ]; then
+            echo "✓ Conference data updated and committed"
+          else
+            echo "✓ Conference data is up to date"
+          fi

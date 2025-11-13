@@ -53,7 +53,7 @@ class DeadlineChecker:
             Formatted text summary
         """
         if not upcoming:
-            return "No upcoming deadlines in the next 30 days."
+            return "No upcoming deadlines in the next 180 days."
 
         summary = []
         summary.append(f"Found {len(upcoming)} conferences with upcoming deadlines:\n")
