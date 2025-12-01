@@ -387,18 +387,18 @@
   - PRIV
   - CONF
   year: 2026
-- date: August 17-21
+- date: August 17-20
   deadline:
-  - 2025-02-13 11:00
+  - 2026-02-12 23:59
   description: International Cryptology Conference
-  link: https://crypto.iacr.org/2025/
+  link: https://crypto.iacr.org/2026/
   name: Crypto
   place: Santa Barbara, CA, USA
   tags:
   - CRYPTO
   - CONF
   - TOP4
-  year: 2025
+  year: 2026
 - date: May 10-14
   deadline:
   - 2025-10-02 23:59
@@ -510,17 +510,17 @@
   - CRYPTO
   - CONF
   year: 2026
-- date: July 21-23
+- date: July 08-10
   deadline:
-  - 2025-03-01 23:59
+  - 2026-03-01 23:59
   description: International Conference on Cryptography Africa
-  link: https://africacrypt2025.sciencesconf.org/
-  name: AFRICACRYPT
-  place: Rabat, Morocco
+  link: https://www.africacrypt2026.tn/
+  name: AfricaCrypt
+  place: Hammamet, Tunisia
   tags:
   - CRYPTO
   - CONF
-  year: 2025
+  year: 2026
 - comment: Extended submission deadline May 16th 23:59 AoE
   date: October 1-3
   deadline:
@@ -1183,7 +1183,7 @@
 - comment: Co-located with NDSS Symposium
   date: February 23
   deadline:
-  - 2025-11-09 23:59
+  - 2025-11-16 23:59
   description: Workshop on the Security of Space and Satellite Systems
   link: https://spacesec.info/
   name: SpaceSec
@@ -1235,7 +1235,7 @@
 - comment: Co-located with NDSS Symposium
   date: February 27
   deadline:
-  - 2025-12-05 23:59
+  - 2025-12-10 23:59
   description: Workshop on LLM Assisted Security and Trust Exploration
   link: https://www.ndss-symposium.org/ndss2026/submissions/cfp-last-x/
   name: LAST-X
@@ -1439,6 +1439,19 @@
   - PRIV
   - SHOP
   year: 2025
+- comment: Co-located with ACM AsiaCCS
+  date: June 2
+  deadline:
+  - 2026-02-13 23:59
+  description: International Workshop on Secure and Efficient Federated Learning
+  link: https://federated-learning.org/fl-asiaccs-2026/
+  name: FL
+  place: Bangalore, India
+  tags:
+  - SEC
+  - PRIV
+  - SHOP
+  year: 2026
 - date: June 30
   deadline:
   - 2025-02-20 23:59
@@ -1636,18 +1649,18 @@
   - SHOP
   year: 2025
 - comment: Co-Located with IEEE European Symposium on Security and Privacy (EuroS&P).
-  date: July 4
+  date: July 10
   deadline:
-  - 2025-03-10 23:59
+  - 2026-03-01 23:59
   description: International Workshop on Security and Risk in Identity Management
-  link: https://st.fbk.eu/events/SeRIM2025/
+  link: https://st.fbk.eu/events/SeRIM2026/
   name: SeRIM
-  place: Venice, Italy
+  place: Lisbon, Portugal
   tags:
   - SEC
   - PRIV
   - SHOP
-  year: 2025
+  year: 2026
 - date: June 5-6
   deadline:
   - 2025-03-13 23:59
@@ -1675,19 +1688,19 @@
   - PRIV
   - SHOP
   year: 2025
-- comment: Co-located with ACM AsiaCCS 2025
-  date: August 26
+- comment: Co-located with ACM AsiaCCS 2026
+  date: June 2
   deadline:
-  - 2025-02-17 23:59
+  - 2026-01-20 23:59
   description: ACM ASIA Public-Key Cryptography Workshop
-  link: https://iseclab.ec.t.kanazawa-u.ac.jp/en/APKC2025.html
+  link: https://iseclab.ec.t.kanazawa-u.ac.jp/en/APKC2026.html
   name: APKC
-  place: Hanoi, Vietnam
+  place: Bangalore, India
   tags:
   - SEC
   - CRYPTO
   - SHOP
-  year: 2025
+  year: 2026
 - comment: Co-located with ESORICS 2025
   date: September 25-26
   deadline:

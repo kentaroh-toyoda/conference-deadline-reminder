@@ -92,6 +92,21 @@
   timezone: UTC-12
   title: ACL
   year: 2025
+- city: San Diego
+  commitment_deadline: '2026-03-14 23:59:59'
+  country: USA
+  date: July 2 - 7, 2026
+  deadline: '2026-01-05 23:59:59'
+  final_decision_date: '2026-04-04 23:59:59'
+  full_name: Annual Meeting of the Association for Computational Linguistics
+  id: acl26
+  link: https://2026.aclweb.org/
+  rankings: 'CCF: A, CORE: A*, THCPL: A'
+  tags:
+  - natural-language-processing
+  timezone: UTC-12
+  title: ACL
+  year: 2026
 - abstract_deadline: '2025-04-04 23:59:59'
   city: Dublin
   country: Ireland
@@ -1045,13 +1060,13 @@
   year: 2025
 - city: San Diego
   country: USA
-  date: December 9-15, 2025
+  date: December 2-7, 2025
   deadline: '2025-05-16 23:59:59'
-  end: '2025-12-15'
+  end: '2025-12-07'
   full_name: Conference on Neural Information Processing Systems
   id: neurips25
   link: https://neurips.cc/
-  start: '2025-12-09'
+  start: '2025-12-02'
   tags:
   - machine-learning
   timezone: UTC-8
