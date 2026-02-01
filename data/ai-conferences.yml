@@ -89,16 +89,23 @@
   title: AAAI
   venue: Singapore EXPO, Singapore
   year: 2026
-- abstract_deadline: '2024-10-09 23:59:59'
-  city: Detroit
-  country: Michigan
+- city: Detroit
+  country: United States
   date: May 19-23, 2025
-  deadline: '2024-10-16 23:59:59'
+  deadlines:
+  - date: '2024-10-09 23:59:59'
+    label: Abstract submission
+    timezone: UTC-12
+    type: abstract
+  - date: '2024-10-16 23:59:59'
+    label: Paper submission
+    timezone: UTC-12
+    type: paper
   end: '2025-05-23'
+  era_rating: a
   full_name: International Conference on Autonomous Agents and Multiagent Systems
   id: aamas25
   link: https://aamas2025.org/
-  note: Mandatory abstract deadline on Oct 09, 2024. More info <a href='https://aamas2025.org/'>here</a>.
   rankings: 'CCF: B, CORE: A*, THCPL: B'
   start: '2025-05-19'
   tags:
@@ -106,6 +113,7 @@
   - robotics
   timezone: UTC-12
   title: AAMAS
+  venue: Detroit Marriott at the Renaissance Center, Detroit, Michigan
   year: 2025
 - city: Paphos
   country: Cyprus
@@ -135,13 +143,13 @@
     label: Camera-ready deadline
     timezone: UTC-12
     type: camera_ready
-  end: 2026-05-29
+  end: '2026-05-29'
   era_rating: a
   full_name: International Conference on Autonomous Agents and Multiagent Systems
   id: aamas26
   link: https://cyprusconferences.org/aamas2026/
   rankings: 'CCF: B, CORE: A*, THCPL: B'
-  start: 2026-05-25
+  start: '2026-05-25'
   tags:
   - machine-learning
   - robotics
@@ -157,7 +165,7 @@
     label: Paper submission deadline
     timezone: UTC-12
     type: paper
-  - date: '2025-04-10 23:59:59'
+  - date: '2025-04-20 23:59:59'
     label: ARR commitment deadline
     timezone: UTC-12
     type: commitment_deadline
@@ -165,11 +173,15 @@
     label: Author notification date
     timezone: UTC-12
     type: notification
+  - date: '2025-05-30 23:59:59'
+    label: Camera-ready deadline
+    timezone: UTC-12
+    type: camera_ready
   era_rating: a
   full_name: Annual Meeting of the Association for Computational Linguistics
   id: acl25
   link: https://2025.aclweb.org/
-  note: ARR commitment deadline on April 10th, 2025.
+  note: ARR commitment deadline on April 20th, 2025.
   rankings: 'CCF: A, CORE: A*, THCPL: A'
   tags:
   - natural-language-processing
@@ -192,6 +204,10 @@
     label: Author notification date
     timezone: UTC-12
     type: notification
+  - date: '2026-04-19 23:59:59'
+    label: Camera-ready deadline
+    timezone: UTC-12
+    type: camera_ready
   era_rating: a
   full_name: Annual Meeting of the Association for Computational Linguistics
   id: acl26
@@ -238,24 +254,51 @@
   title: ACM MM
   venue: Dublin Royal Convention Center, Dublin, Ireland
   year: 2025
-- abstract_deadline: '2024-10-03 23:59:59'
-  city: Mai Khao
+- city: Rio de Janeiro
+  country: Brazil
+  date: November 10-14, 2026
+  deadlines: []
+  end: '2026-11-14'
+  era_rating: a
+  full_name: ACM Multimedia
+  id: acm26
+  link: https://2026.acmmm.org/
+  note: Deadlines not yet announced. Check the <a href='https://2026.acmmm.org/'>official
+    website</a> for updates.
+  start: '2026-11-10'
+  tags:
+  - computer-vision
+  - machine-learning
+  - human-computer-interaction
+  timezone: AoE
+  title: ACM MM
+  year: 2026
+- city: Mai Khao
   country: Thailand
   date: May 3-5, 2025
-  deadline: '2024-10-10 23:59:59'
+  deadlines:
+  - date: '2024-10-03 23:59:59'
+    label: Abstract submission deadline
+    timezone: AoE
+    type: abstract
+  - date: '2024-10-10 23:59:59'
+    label: Full paper submission deadline
+    timezone: AoE
+    type: paper
   end: '2025-05-05'
+  era_rating: b
   full_name: International Conference on Artificial Intelligence and Statistics
   hindex: 100
   id: aistats25
   link: https://aistats.org/aistats2025
-  note: Abstract deadline on October 3, 2024. More info <a href='https://aistats.org/aistats2025/call-for-papers.html'>here</a>
+  note: More info <a href='https://aistats.org/aistats2025/call-for-papers.html'>here</a>
   rankings: 'CCF: C, CORE: A, THCPL: B'
   start: '2025-05-03'
   tags:
   - machine-learning
-  timezone: UTC-12
+  timezone: AoE
   title: AISTATS
-  venue: TBA
+  venue: Splash Beach Resort
   year: 2025
 - city: Tangier
   country: Morocco
@@ -273,7 +316,7 @@
     label: Supplementary material deadline
     timezone: AoE
     type: supplementary
-  - date: '2026-01-23 23:59:59'
+  - date: '2026-01-22 23:59:59'
     label: Paper decision notifications
     timezone: AoE
     type: notification
@@ -294,7 +337,7 @@
   - machine-learning
   timezone: AoE
   title: AISTATS
-  venue: TBA
+  venue: Hilton Tangier Al Houara Resort & Spa
   year: 2026
 - city: Milan
   country: Italy
@@ -365,11 +408,21 @@
     label: Paper submission deadline
     timezone: UTC-12
     type: paper
+  - date: '2026-03-15 23:59:59'
+    label: Paper acceptance notification
+    timezone: UTC-12
+    type: notification
+  - date: '2026-04-15 23:59:59'
+    label: Camera-ready papers deadline
+    timezone: UTC-12
+    type: camera_ready
+  end: 2026-06-26
   era_rating: a
   full_name: IEEE Congress on Evolutionary Computation
   id: cec2026
   link: https://attend.ieee.org/wcci-2026/
   rankings: 'CCF: N, CORE: B, THCPL: N'
+  start: 2026-06-21
   tags:
   - machine-learning
   timezone: UTC-12
@@ -620,8 +673,21 @@
 - city: Vienna
   country: Austria
   date: July 31 - August 1, 2025
-  deadline: 2025-03-15 12:00
+  deadlines:
+  - date: '2025-03-14 23:59:59'
+    label: Paper submission deadline
+    timezone: UTC-12
+    type: paper
+  - date: '2025-05-23 23:59:59'
+    label: Notification of acceptance
+    timezone: UTC-12
+    type: notification
+  - date: '2025-06-17 23:59:59'
+    label: Camera-ready papers due
+    timezone: UTC-12
+    type: camera_ready
   end: '2025-08-01'
+  era_rating: a
   full_name: The SIGNLL Conference on Computational Natural Language Learning
   id: conll25
   link: https://conll.org/
@@ -766,13 +832,13 @@
   title: CVPR
   venue: Music City Center, Nashville, USA
   year: 2025
-- abstract_deadline: '2025-11-06 23:59:59'
-  city: Denver, Colorado
+- abstract_deadline: '2025-11-07 23:59:59'
+  city: Denver
   country: USA
   date: June 3-7, 2026
   deadline: '2025-11-13 23:59:59'
   deadlines:
-  - date: '2025-11-06 23:59:59'
+  - date: '2025-11-07 23:59:59'
     label: Abstract Submission
     timezone: UTC-12
     type: abstract
@@ -806,9 +872,10 @@
   hindex: 450
   id: cvpr26
   link: https://cvpr.thecvf.com/Conferences/2026/CallForPapers
-  note: Abstract submission deadline on Nov 6th, paper submission deadline on Nov
+  note: Abstract submission deadline on Nov 7th, paper submission deadline on Nov
     13th, supplementary materials deadline on Nov 20th. Reviews released on Jan 22nd,
-    rebuttal period Jan 22nd-29th, and final decisions on Feb 20th.
+    rebuttal period Jan 22nd-29th, and final decisions on Feb 20th. Main conference
+    June 5-7, workshops/tutorials June 3-4.
   rankings: 'CCF: A, CORE: A*, THCPL: A'
   rebuttal_period_end: '2026-01-29 23:59:59'
   review_release_date: '2026-01-22 23:59:59'
@@ -865,31 +932,95 @@
   title: ECAI
   venue: Bologna Congress Center and The Engineering School (University of Bologna)
   year: 2025
+- city: Bremen
+  country: Germany
+  date: August 15-21, 2026
+  deadlines:
+  - date: '2026-01-12 23:59:59'
+    label: Abstract submission deadline
+    timezone: UTC-12
+    type: abstract
+  - date: '2026-01-19 23:59:59'
+    label: Full paper submission deadline
+    timezone: UTC-12
+    type: paper
+  - date: '2026-03-04 23:59:59'
+    label: Summary rejection notification
+    timezone: UTC-12
+    type: notification
+  - date: '2026-04-07 23:59:59'
+    label: Author response period start
+    timezone: UTC-12
+    type: rebuttal_start
+  - date: '2026-04-10 23:59:59'
+    label: Author response period end
+    timezone: UTC-12
+    type: rebuttal_end
+  - date: '2026-04-29 23:59:59'
+    label: Paper notification
+    timezone: UTC-12
+    type: notification
+  - date: '2026-05-15 23:59:59'
+    label: Camera-ready deadline
+    timezone: UTC-12
+    type: camera_ready
+  end: 2026-08-21
+  era_rating: a
+  full_name: European Conference on Artificial Intelligence
+  id: ecai26
+  link: https://2026.ijcai.org/
+  note: Joint conference with IJCAI 2026 (IJCAI-ECAI 2026). All important dates can
+    be found <a href='https://2026.ijcai.org/important-dates/'>here</a>.
+  rankings: 'CCF: B, CORE: A, THCPL: N'
+  start: 2026-08-15
+  tags:
+  - machine-learning
+  timezone: UTC-12
+  title: ECAI
+  venue: University of Bremen and Bremen Exhibition Center
+  year: 2026
 - city: Malmö
   country: Sweden
   date: September 8-13, 2026
   deadlines:
-  - date: '2026-03-06 12:00:00'
+  - date: '2026-02-26 23:59:59'
+    label: Paper Registration
+    timezone: CET
+    type: registration
+  - date: '2026-03-05 23:59:59'
     label: Paper Submission
-    timezone: UTC+1
-    type: submission
+    timezone: CET
+    type: paper
+  - date: '2026-03-12 23:59:59'
+    label: Supplemental Materials
+    timezone: CET
+    type: supplementary
+  - date: '2026-05-02 23:59:59'
+    label: Reviews Released to Authors
+    timezone: CET
+    type: review_release
+  - date: '2026-05-11 23:59:59'
+    label: Rebuttal Deadline
+    timezone: CET
+    type: rebuttal_end
+  - date: '2026-06-17 23:59:59'
+    label: Final Decisions
+    timezone: CET
+    type: notification
+  - date: '2026-06-27 23:59:59'
+    label: Camera Ready Deadline
+    timezone: CET
+    type: camera_ready
   - date: '2026-02-14 23:59:59'
     label: Workshop/Tutorial Proposal Submission
-    timezone: UTC-12
+    timezone: AoE
     type: submission
-  - date: '2026-02-15 23:59:59'
-    label: Call for Tutorials Submission
-    timezone: UTC-12
-    type: submission
+  end: 2026-09-13
   era_rating: a
   full_name: European Conference on Computer Vision
   id: eecv26
   link: https://eccv.ecva.net/Conferences/2026
-  note: Paper submission deadline on March 6th, 2026 at 12:00 PM CET. Workshop/tutorial
-    proposal deadline on February 14th, 2026 (AOE). Call for tutorials submission
-    deadline on February 15th, 2026 (AOE). Additional deadlines including abstract
-    submission, supplementary materials, review release, rebuttal period, notification,
-    and camera ready will be announced closer to the submission date.
+  start: 2026-09-08
   tags:
   - computer-vision
   title: ECCV
@@ -907,6 +1038,7 @@
     timezone: UTC-12
     type: paper
   end: '2025-04-10'
+  era_rating: b
   full_name: European Conference on Information Retrieval
   id: ecir25
   link: https://ecir2025.eu/
@@ -947,6 +1079,7 @@
   country: Italy
   date: September 7 - 11, 2026
   end: 2026-09-11
+  era_rating: a
   full_name: European Conference on Machine Learning and Principles and Practice of
     Knowledge Discovery in Databases
   id: ecmlpkdd26
@@ -967,6 +1100,7 @@
     timezone: UTC-12
     type: paper
   end: '2026-10-29'
+  era_rating: a
   full_name: The annual Conference on Empirical Methods in Natural Language Processing
   id: emnlp26
   link: https://2026.emnlp.org/
@@ -1009,6 +1143,7 @@
     timezone: AoE
     type: notification
   end: 2026-04-24
+  era_rating: b
   full_name: European Symposium on Artificial Neural Networks, Computational Intelligence
     and Machine Learning
   id: esann26
@@ -1050,6 +1185,7 @@
     timezone: UTC
     type: registration
   end: 2026-05-08
+  era_rating: a
   full_name: The 47th Annual Conference of the European Association for Computer Graphics
   id: eurographics26
   link: https://eg2026.github.io/
@@ -1147,6 +1283,7 @@
     timezone: UTC-12
     type: camera_ready
   end: 2026-09-17
+  era_rating: b
   full_name: 35th International Conference on Artificial Neural Networks
   hindex: 32.0
   id: icann26
@@ -1157,8 +1294,6 @@
   start: 2026-09-14
   tags:
   - machine-learning
-  - neural-networks
-  - artificial-intelligence
   timezone: UTC-12
   title: ICANN
   venue: University of Padua, Padua, Italy
@@ -1191,6 +1326,7 @@
     timezone: GMT+02
     type: submission
   end: 2025-05-08
+  era_rating: a
   full_name: International Conference on Acoustics, Speech and Signal Processing
   id: icassp26
   link: https://2026.ieeeicassp.org
@@ -1245,20 +1381,82 @@
   title: ICCV
   venue: Hawaii Convention Center
   year: 2025
-- abstract_deadline: '2025-02-28 23:59:59'
-  city: Wuhan
+- city: Wuhan
   country: China
   date: September 17-21, 2025
-  deadline: '2025-03-07 23:59:59'
+  deadlines:
+  - date: '2025-02-28 23:59:59'
+    label: Abstract submission
+    timezone: PST
+    type: abstract
+  - date: '2025-03-14 23:59:59'
+    label: Paper submission
+    timezone: PST
+    type: paper
+  - date: '2025-03-19 23:59:59'
+    label: Supplementary materials
+    timezone: PST
+    type: supplementary
+  - date: '2025-06-06 23:59:59'
+    label: Acceptance notification
+    timezone: PST
+    type: notification
+  - date: '2025-06-27 23:59:59'
+    label: Camera-ready deadline
+    timezone: PST
+    type: camera_ready
+  end: 2025-09-21
   full_name: International Conference on Document Analysis and Recognition
   id: icdar2025
   link: https://www.icdar2025.com/home
   rankings: 'CCF: C, CORE: A, THCPL: B'
+  start: 2025-09-17
   tags:
   - computer-vision
   timezone: UTC+0
   title: ICDAR
   year: 2025
+- city: Vienna
+  country: Austria
+  date: August 30 - September 4, 2026
+  deadlines:
+  - date: '2026-02-13 23:59:59'
+    label: Abstract submission
+    timezone: AoE
+    type: abstract
+  - date: '2026-02-27 23:59:59'
+    label: Paper submission
+    timezone: AoE
+    type: paper
+  - date: '2026-04-17 23:59:59'
+    label: Reviews released
+    timezone: AoE
+    type: review_release
+  - date: '2026-04-24 23:59:59'
+    label: Rebuttal period
+    timezone: AoE
+    type: rebuttal_start
+  - date: '2026-05-15 23:59:59'
+    label: Acceptance notification
+    timezone: AoE
+    type: notification
+  - date: '2026-06-15 23:59:59'
+    label: Camera-ready deadline
+    timezone: AoE
+    type: camera_ready
+  end: 2026-09-04
+  era_rating: a
+  full_name: International Conference on Document Analysis and Recognition
+  id: icdar2026
+  link: https://icdar2026.org/
+  rankings: 'CCF: C, CORE: A, THCPL: B'
+  start: 2026-08-30
+  tags:
+  - computer-vision
+  timezone: UTC+0
+  title: ICDAR
+  venue: TU Wien, Campus Gußhaus
+  year: 2026
 - city: Washington DC
   country: USA
   date: November 12 - 15, 2025
@@ -1307,11 +1505,19 @@
   - data-mining
   title: ICDM
   year: 2026
-- abstract_deadline: '2024-09-27 23:59:59'
-  city: Singapore
+- city: Singapore
   country: Singapore
   date: April 24-28, 2025
-  deadline: '2024-10-01 23:59:59'
+  deadlines:
+  - date: '2024-09-27 23:59:59'
+    label: Abstract Submission
+    timezone: UTC-12
+    type: abstract
+  - date: '2024-10-01 23:59:59'
+    label: Paper Submission
+    timezone: UTC-12
+    type: submission
+  end: 2025-04-28
   era_rating: a
   full_name: International Conference on Learning Representations
   hindex: 304
@@ -1319,6 +1525,7 @@
   link: https://iclr.cc/Conferences/2025
   note: Mandatory abstract deadline on September 27, 2024. More info <a href='https://iclr.cc/Conferences/2025/CallForPapers'>here</a>.
   rankings: 'CCF: N, CORE: A*, THCPL: A'
+  start: 2025-04-24
   tags:
   - machine-learning
   - computer-vision
@@ -1347,6 +1554,10 @@
     label: Reviews Released
     timezone: UTC-12
     type: review_release
+  - date: '2025-12-03 23:59:59'
+    label: Discussion Period End
+    timezone: UTC-12
+    type: rebuttal_end
   - date: '2026-01-22 23:59:59'
     label: Notification
     timezone: UTC-12
@@ -1370,7 +1581,7 @@
   - representation-learning
   timezone: UTC-12
   title: ICLR
-  venue: To be announced
+  venue: Riocentro Convention and Event Center
   year: 2026
 - city: Vancouver
   country: Canada
@@ -1457,6 +1668,7 @@
     timezone: AoE
     type: notification
   end: 2025-10-19
+  era_rating: b
   full_name: International Conference on Computational Optimization
   id: icomp25
   link: https://icomp.cc/
@@ -1568,6 +1780,7 @@
     timezone: AoE
     type: camera_ready
   end: 2026-08-21
+  era_rating: a
   full_name: International Joint Conference on Artificial Intelligence
   id: ijcai26
   link: https://2026.ijcai.org/
@@ -1639,7 +1852,7 @@
     label: Paper acceptance notification
     timezone: AoE
     type: notification
-  - date: '2026-05-15 23:59:59'
+  - date: '2026-04-15 23:59:59'
     label: Camera-ready papers
     timezone: AoE
     type: camera_ready
@@ -1725,10 +1938,28 @@
 - city: Pittsburgh
   country: USA
   date: September 27 - October 1, 2026
+  deadlines:
+  - date: '2026-03-02 23:59:59'
+    label: Paper submission deadline
+    timezone: AoE
+    type: paper
+  - date: '2026-03-05 23:59:59'
+    label: Paper video submission deadline
+    timezone: AoE
+    type: paper
+  - date: '2026-06-16 23:59:59'
+    label: Paper acceptance notification
+    timezone: AoE
+    type: notification
+  - date: '2026-07-10 23:59:59'
+    label: Final paper submission deadline
+    timezone: AoE
+    type: camera_ready
   end: 2026-10-01
+  era_rating: a
   full_name: IEEE\RSJ International Conference on Intelligent Robots and Systems
   id: iros26
-  link: https://www.ieee-ras.org/
+  link: https://2026.ieee-iros.org/
   rankings: 'CCF: C, CORE: A, THCPL: B'
   start: 2026-09-27
   tags:
@@ -1740,20 +1971,37 @@
   country: Cyprus
   date: March 23-26, 2026
   deadlines:
-  - date: '2025-10-11 13:59:59'
-    label: Abstract deadline on 2025-10-03 23:59:59 UTC-12!
-    timezone: GMT+02
-    type: submission
+  - date: '2025-10-03 23:59:59'
+    label: Abstract submission
+    timezone: AoE
+    type: abstract
+  - date: '2025-10-10 23:59:59'
+    label: Full paper submission
+    timezone: AoE
+    type: paper
+  - date: '2025-12-12 23:59:59'
+    label: Decision notification
+    timezone: AoE
+    type: notification
+  - date: '2026-01-23 23:59:59'
+    label: Camera-ready submission
+    timezone: AoE
+    type: camera_ready
+  - date: '2026-01-23 23:59:59'
+    label: Author registration deadline
+    timezone: AoE
+    type: registration
   end: 2026-03-26
+  era_rating: a
   full_name: ACM Conference on Intelligent User Interfaces
   id: iui26
   link: https://iui.acm.org/2026/
-  note: Abstract deadline on 2025-10-03 23:59:59 UTC-12!
   start: 2026-03-23
   tags:
   - human-computer-interaction
-  timezone: GMT+02
+  timezone: AoE
   title: IUI
+  venue: Coral Beach Hotel & Resort
   year: 2026
 - city: Toronto
   country: Canada
@@ -1850,6 +2098,7 @@
     timezone: AoE
     type: camera_ready
   end: 2025-08-07
+  era_rating: b
   full_name: International Conference on Knowledge Science, Engineering and Management
   id: ksem25
   link: https://ksem2025.scimeeting.cn/
@@ -1877,6 +2126,7 @@
     timezone: AoE
     type: camera_ready
   end: 2026-05-16
+  era_rating: a
   full_name: Language Resources and Evaluation Conference
   id: lrec26
   link: https://lrec2026.info/
@@ -1914,22 +2164,27 @@
   tags:
   - machine-learning
   - mathematics
-  title: MathAI 2025
+  title: MathAI
   venue: Sirius International Mathematics Center, Sirius
   year: 2025
 - city: Sochi
   country: Russia
   date: March, 30 - April 3, 2026
   deadlines:
-  - date: '2026-02-01 00:00:00'
-    label: Abstract registration deadline
-    timezone: GMT
+  - date: '2026-02-01 23:59:59'
+    label: Abstract submission deadline
+    timezone: Europe/London
     type: abstract
-  - date: '2026-02-19 00:00:00'
+  - date: '2026-02-19 23:59:59'
     label: Full paper submission deadline
-    timezone: GMT
+    timezone: Europe/London
     type: paper
+  - date: '2026-03-10 23:59:59'
+    label: Decision notification
+    timezone: AoE
+    type: notification
   end: 2026-04-03
+  era_rating: a
   full_name: The International Conference dedicated to mathematics in artificial intelligence
   hindex: 100.0
   id: mathai26
@@ -1940,13 +2195,14 @@
   tags:
   - machine-learning
   - mathematics
-  title: MathAI 2026
+  title: MathAI
   venue: Sirius International Mathematics Center, Sirius
   year: 2026
 - city: Albuquerque
   country: New Mexico
   date: April 29-May 4, 2025
   deadline: '2024-10-15 23:59:59'
+  era_rating: a
   full_name: The Annual Conference of the North American Chapter of the Association
     for Computational Linguistics
   hindex: 132
@@ -2011,12 +2267,19 @@
 - city: Rio de Janeiro
   country: Brazil
   date: April 12-13, 2026
-  deadline: '2025-11-04 11:59:59'
   deadlines:
-  - date: '2025-11-04 11:59:59'
+  - date: '2025-11-03 23:59:59'
     label: Paper submission deadline
-    timezone: UTC–12:00
+    timezone: AoE
     type: submission
+  - date: '2025-12-01 23:59:59'
+    label: Author notification
+    timezone: AoE
+    type: notification
+  - date: '2026-01-26 23:59:59'
+    label: Camera-ready deadline
+    timezone: AoE
+    type: camera_ready
   end: 2026-04-13
   full_name: The 5th International Workshop on Natural Language-based Software Engineering
   id: nlbse26
@@ -2026,7 +2289,7 @@
   tags:
   - natural-language-processing
   - software engineering
-  timezone: UTC-12
+  timezone: AoE
   title: NLBSE
   venue: Windsor Convention Center and Hotels
   year: 2026
@@ -2062,11 +2325,24 @@
 - city: Montreal
   country: Canada
   date: August 16 - 19, 2026
-  deadlines: []
+  deadlines:
+  - date: '2026-03-02 12:00:00'
+    label: Abstract registration
+    timezone: UTC
+    type: abstract
+  - date: '2026-03-06 12:00:00'
+    label: Paper submission
+    timezone: UTC
+    type: paper
+  - date: '2026-05-08 23:59:59'
+    label: Author notification
+    timezone: AoE
+    type: notification
   end: 2026-08-19
   full_name: Reinforcement Learning Conference
   id: rlc26
   link: https://rl-conference.cc/
+  note: Mandatory abstract registration on Mar 2, 2026.
   start: 2026-08-16
   tags:
   - machine-learning
@@ -2074,21 +2350,31 @@
   timezone: America/Montreal
   title: RLC
   year: 2026
-- abstract_deadline: '2025-01-17 23:59:00'
-  city: Los Angeles
+- city: Los Angeles
   country: USA
   date: June 21-25, 2025
-  deadline: '2025-01-24 23:59:00'
+  deadlines:
+  - date: '2025-01-17 23:59:59'
+    label: Abstract Submission
+    timezone: AoE
+    type: abstract
+  - date: '2025-01-24 23:59:59'
+    label: Paper Submission
+    timezone: AoE
+    type: paper
+  end: 2025-06-25
   era_rating: a
   full_name: Robotics Science and Systems
   id: rss25
   link: https://roboticsconference.org
   rankings: 'CCF: N, CORE: A*, THCPL: A'
+  start: 2025-06-21
   tags:
   - robotics
   - machine-learning
   timezone: AoE
   title: RSS
+  venue: University of Southern California
   year: 2025
 - city: Sydney
   country: Australia
@@ -2122,26 +2408,66 @@
     label: Final Decisions
     timezone: UTC-12
     type: notification
+  end: 2026-07-17
   era_rating: a
   full_name: Robotics Science and Systems
   hindex: 83
   id: rss26
   link: https://roboticsconference.org
   rankings: 'CCF: N, CORE: A*, THCPL: A'
+  start: 2026-07-13
   tags:
   - robotics
   - machine-learning
   timezone: UTC-12
   title: RSS
   year: 2026
-- abstract_deadline: '2025-02-04 23:59:59'
-  city: Bilbao
+- city: Bilbao
   country: Spain
   date: June 30-July 4, 2025
-  deadline: '2025-02-07 23:59:59'
+  deadlines:
+  - date: '2025-02-04 23:59:00'
+    label: Abstract submission (Round 1)
+    timezone: UTC
+    type: abstract
+  - date: '2025-02-07 23:59:00'
+    label: Paper submission (Round 1)
+    timezone: UTC
+    type: paper
+  - date: '2025-03-15 23:59:00'
+    label: Notification of acceptance (Round 1)
+    timezone: UTC
+    type: notification
+  - date: '2025-03-29 23:59:00'
+    label: Revised version due (Round 1)
+    timezone: UTC
+    type: camera_ready
+  - date: '2025-04-05 23:59:00'
+    label: Camera ready due (Round 1)
+    timezone: UTC
+    type: camera_ready
+  - date: '2025-04-08 23:59:00'
+    label: Abstract submission (Round 2)
+    timezone: UTC
+    type: abstract
+  - date: '2025-04-11 23:59:00'
+    label: Paper submission (Round 2)
+    timezone: UTC
+    type: paper
+  - date: '2025-05-16 23:59:00'
+    label: Notification of acceptance (Round 2)
+    timezone: UTC
+    type: notification
+  - date: '2025-05-30 23:59:00'
+    label: Revised version due (Round 2)
+    timezone: UTC
+    type: camera_ready
+  - date: '2025-06-06 23:59:00'
+    label: Camera ready due (Round 2)
+    timezone: UTC
+    type: camera_ready
   end: '2025-07-04'
-  final_decision_date: '2025-03-15'
-  full_name: Synopsium on Geometric Processing
+  full_name: Symposium on Geometry Processing
   id: sgp25
   link: https://sgp2025.my.canva.site/
   note: All important dates can be found <a href='https://sgp2025.my.canva.site/submit-page-sgp'>here</a>.
@@ -2149,10 +2475,68 @@
   tags:
   - computer-vision
   - machine-learning
-  timezone: UTC-12
+  timezone: UTC
   title: SGP
   venue: Bizkaia Aretoa, Bilbao, Spain
   year: 2025
+- city: Bern
+  country: Switzerland
+  date: July 1-3, 2026
+  deadlines:
+  - date: '2026-02-02 22:59:00'
+    label: Abstract submission (Round 1)
+    timezone: UTC
+    type: abstract
+  - date: '2026-02-04 22:59:00'
+    label: Paper submission (Round 1)
+    timezone: UTC
+    type: paper
+  - date: '2026-03-16 23:59:59'
+    label: Notification of acceptance (Round 1)
+    timezone: AoE
+    type: notification
+  - date: '2026-03-26 23:59:59'
+    label: Revised version due (Round 1)
+    timezone: AoE
+    type: camera_ready
+  - date: '2026-04-02 23:59:59'
+    label: Camera ready due (Round 1)
+    timezone: AoE
+    type: camera_ready
+  - date: '2026-04-13 22:59:00'
+    label: Abstract submission (Round 2)
+    timezone: UTC
+    type: abstract
+  - date: '2026-04-15 22:59:00'
+    label: Paper submission (Round 2)
+    timezone: UTC
+    type: paper
+  - date: '2026-05-25 23:59:59'
+    label: Notification of acceptance (Round 2)
+    timezone: AoE
+    type: notification
+  - date: '2026-06-04 23:59:59'
+    label: Revised version due (Round 2)
+    timezone: AoE
+    type: camera_ready
+  - date: '2026-06-11 23:59:59'
+    label: Camera ready due (Round 2)
+    timezone: AoE
+    type: camera_ready
+  end: '2026-07-03'
+  era_rating: b
+  full_name: Symposium on Geometry Processing
+  id: sgp26
+  link: https://sgp26.org/
+  note: Graduate School June 29-30, 2026. All important dates can be found <a href='https://sgp26.org/submit/'>here</a>.
+  start: '2026-07-01'
+  tags:
+  - computer-vision
+  - machine-learning
+  timezone: UTC
+  title: SGP
+  venue: University of Bern, Switzerland
+  year: 2026
 - city: Vancouver
   country: Canada
   date: August 10-14, 2025
@@ -2184,6 +2568,10 @@
     label: Art Papers deadline
     timezone: UTC
     type: submission
+  - date: '2026-01-13 22:00:00'
+    label: Student Volunteers Team Leader Applications deadline
+    timezone: UTC
+    type: submission
   - date: '2026-01-15 22:00:00'
     label: Technical Papers submission form deadline
     timezone: UTC
@@ -2197,15 +2585,44 @@
     timezone: UTC
     type: submission
   - date: '2026-01-27 22:00:00'
+    label: Art Gallery deadline
+    timezone: UTC
+    type: submission
+  - date: '2026-01-27 22:00:00'
     label: Technical Workshops deadline
     timezone: UTC
     type: submission
   - date: '2026-02-10 22:00:00'
-    label: Talks, Production Sessions, Panels, Courses, Educator's Forum deadline
+    label: Talks, Production Sessions, Panels, Courses, Educator's Forum, Spatial
+      Storytelling, Immersive Pavilion, Emerging Technologies deadline
+    timezone: UTC
+    type: submission
+  - date: '2026-02-10 22:00:00'
+    label: Student Volunteers Applications deadline
+    timezone: UTC
+    type: submission
+  - date: '2026-03-17 22:00:00'
+    label: Computer Animation Festival deadline
     timezone: UTC
     type: submission
   - date: '2026-04-07 22:00:00'
     label: Frontiers deadline
+    timezone: UTC
+    type: submission
+  - date: '2026-04-07 22:00:00'
+    label: Real-Time Live! deadline
+    timezone: UTC
+    type: submission
+  - date: '2026-04-21 22:00:00'
+    label: Posters deadline
+    timezone: UTC
+    type: submission
+  - date: '2026-04-21 22:00:00'
+    label: Appy Hour deadline
+    timezone: UTC
+    type: submission
+  - date: '2026-04-21 22:00:00'
+    label: Student Research Competition deadline
     timezone: UTC
     type: submission
   end: '2026-07-23'
@@ -2251,11 +2668,17 @@
 - city: Tucson
   country: USA
   date: February 28 - March 4, 2025
-  deadline: '2024-07-15 23:59:59'
+  deadlines:
+  - date: '2024-07-15 23:59:59'
+    label: Paper Submission Deadline
+    timezone: UTC-7
+    type: submission
+  end: 2025-03-04
   full_name: IEEE/CVF Winter Conference on Applications of Computer Vision
   id: wacv25
   link: https://wacv2025.thecvf.com/
   rankings: 'CCF: N, CORE: A, THCPL: N'
+  start: 2025-02-28
   tags:
   - machine-learning
   - computer-vision
@@ -2279,15 +2702,15 @@
     label: Round 1 Supplementary Material Submission
     timezone: UTC-12
     type: supplementary
-  - date: '2025-09-03 23:59:59'
-    label: Round 1 Reviews and Decisions to Authors
+  - date: '2025-09-05 23:59:59'
+    label: Round 1 Reviews Released
     timezone: UTC-12
-    type: notification
+    type: review_release
   - date: '2025-09-19 23:59:59'
     label: Round 1 Rebuttal and Revision Submission
     timezone: UTC-12
     type: rebuttal_and_revision
-  - date: '2025-11-05 23:59:59'
+  - date: '2025-11-06 23:59:59'
     label: Round 1 Final Decisions Released to Authors
     timezone: UTC-12
     type: notification
@@ -2303,15 +2726,16 @@
     label: Round 2 Supplementary Material Submission
     timezone: UTC-12
     type: supplementary
-  - date: '2025-11-06 07:59:59'
+  - date: '2025-11-06 23:59:59'
     label: Round 2 Reviews and Final Decisions to Authors
-    timezone: UTC
+    timezone: UTC-12
     type: notification
-  - date: '2026-01-09 23:59:59'
+  - date: '2026-01-10 23:59:59'
     label: Camera-Ready Deadline
-    timezone: America/Los_Angeles
+    timezone: UTC-12
     type: camera_ready
   end: 2026-03-10
+  era_rating: a
   full_name: IEEE/CVF Winter Conference on Applications of Computer Vision
   id: wacv26
   link: https://wacv.thecvf.com/
@@ -2323,53 +2747,98 @@
   title: WACV
   venue: JW Marriott Starpass in Tucson, Arizona, USA
   year: 2026
-- abstract_deadline: '2024-08-07 23:59:00'
-  city: Hannover
+- city: Hannover
   country: Germany
   date: March 10-14, 2025
-  deadline: '2024-08-14 23:59:00'
+  deadlines:
+  - date: '2024-08-07 23:59:00'
+    label: Abstract submission
+    timezone: AoE
+    type: abstract
+  - date: '2024-08-14 23:59:00'
+    label: Paper submission
+    timezone: AoE
+    type: paper
   end: 2025-03-14
   full_name: ACM International Conference on Web Search and Data Mining
   id: wsdm25
   link: https://www.wsdm-conference.org/2025/
-  note: Abstract deadline on August 7, 2024
   rankings: 'CCF: B, CORE: A*, THCPL: B'
   start: 2025-03-10
   tags:
   - web-search
   - data-mining
-  timezone: UTC-12
   title: WSDM
   venue: Hannover Congress Center, Hannover, Germany
   year: 2025
-- abstract_deadline: '2025-09-30 23:59:59'
-  city: Dubai
+- city: Boise
+  country: United States
+  date: February 22-26, 2026
+  deadlines:
+  - date: '2025-08-07 23:59:00'
+    label: Abstract submission (full papers)
+    timezone: AoE
+    type: abstract
+  - date: '2025-08-14 23:59:00'
+    label: Paper submission (full papers)
+    timezone: AoE
+    type: paper
+  - date: '2025-09-18 23:59:00'
+    label: Abstract submission (short papers)
+    timezone: AoE
+    type: abstract
+  - date: '2025-09-25 23:59:00'
+    label: Paper submission (short papers)
+    timezone: AoE
+    type: paper
+  - date: '2025-10-23 23:59:59'
+    label: Author notification (full papers)
+    timezone: AoE
+    type: notification
+  - date: '2025-11-27 23:59:59'
+    label: Author notification (short papers)
+    timezone: AoE
+    type: notification
+  end: 2026-02-26
+  era_rating: b
+  full_name: ACM International Conference on Web Search and Data Mining
+  id: wsdm26
+  link: https://wsdm-conference.org/2026/
+  rankings: 'CCF: B, CORE: A*, THCPL: B'
+  start: 2026-02-22
+  tags:
+  - web-search
+  - data-mining
+  title: WSDM
+  venue: Boise, Idaho, USA
+  year: 2026
+- city: Dubai
   country: UAE
   date: April 13-17, 2026
-  deadline: '2025-10-07 23:59:59'
   deadlines:
-  - date: '2025-10-08 13:59:59'
-    label: Abstract deadline on 2025-09-30 23:59:59 UTC-12!
-    timezone: GMT+02
+  - date: '2025-09-30 23:59:59'
+    label: Abstract Submission
+    timezone: AoE
     type: abstract
   - date: '2025-10-07 23:59:59'
     label: Paper Submission
-    timezone: UTC-12
+    timezone: AoE
     type: submission
   - date: '2025-11-24 00:00:00'
     label: Rebuttal Period Start
-    timezone: UTC-12
+    timezone: AoE
     type: rebuttal_start
   - date: '2025-12-01 23:59:59'
     label: Rebuttal Period End
+    timezone: AoE
     type: rebuttal_end
   - date: '2026-01-13 23:59:59'
     label: Notification
-    timezone: UTC-12
+    timezone: AoE
     type: notification
-  - date: '2026-01-15 23:59:59'
+  - date: '2026-01-25 23:59:59'
     label: Camera Ready
-    timezone: UTC-12
+    timezone: AoE
     type: camera_ready
   end: 2026-04-17
   era_rating: a
@@ -2384,6 +2853,6 @@
   - retrieval
   - web mining
   - content analysis
-  timezone: GMT+02
+  timezone: AoE
   title: WWW
   year: 2026

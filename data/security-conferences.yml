@@ -405,6 +405,18 @@
   - PRIV
   - CONF
   year: 2026
+- comment: Abstract submission. Once accepted, full papers due July 30.
+  date: August 10-14
+  deadline:
+  - 2026-04-30 23:59
+  description: IFIP Summer School on Privacy and Identity Management
+  link: https://ifip-summerschool.org/
+  name: IFIPSC
+  place: Leuven, Belgium
+  tags:
+  - PRIV
+  - SHOP
+  year: 2026
 - date: August 17-20
   deadline:
   - 2026-02-12 23:59
@@ -416,6 +428,7 @@
   - CRYPTO
   - CONF
   - TOP4
+  timezone: Etc/GMT+8
   year: 2026
 - date: May 10-14
   deadline:
@@ -577,7 +590,7 @@
   description: IACR Transactions on Cryptographic Hardware and Embedded Systems
   link: https://ches.iacr.org/2026/
   name: CHES
-  place: TBD, Türkiye
+  place: Antalya, Türkiye
   tags:
   - CRYPTO
   - CONF
@@ -657,7 +670,7 @@
 - date: June 22-25
   deadline:
   - 2025-09-25 23:59
-  - 2026-01-22 23:59
+  - 2026-01-23 23:59
   description: International Conference on Applied Cryptography and Network Security
   link: https://acns2026.github.io/
   name: ACNS
@@ -939,7 +952,7 @@
   year: 2025
 - date: July 5-6
   deadline:
-  - 2026-01-29 23:59
+  - 2026-02-05 23:59
   description: Secure Development Conference
   link: https://conf.researchr.org/home/secdev-2026
   name: SecDev
@@ -989,7 +1002,7 @@
 - comment: In conjunction with ACNS 2026
   date: June 22
   deadline:
-  - 2026-01-23 23:59
+  - 2026-01-30 23:59
   - 2026-03-06 23:59
   description: International Workshop on Artificial Intelligence and IoT Security
   link: https://aiots26.github.io/main/
@@ -1002,7 +1015,7 @@
 - comment: In conjunction with ACNS
   date: June 22-25
   deadline:
-  - 2026-01-24 23:59
+  - 2026-01-30 23:59
   - 2026-03-22 23:59
   description: International Workshop on Critical Infrastructure and Maritime Systems
     Security
@@ -1162,18 +1175,18 @@
   - PRIV
   - SHOP
   year: 2025
-- date: August 24 - 27
+- date: September 27 - 30
   deadline:
-  - 2025-04-25 23:59
+  - 2026-04-30 23:59
   description: New Security Paradigms Workshop
-  link: https://www.nspw.org/2025/cfp
+  link: https://www.nspw.org/2026/cfp
   name: NSPW
-  place: Aerzen, Germany
+  place: Victoria, Canada
   tags:
   - SEC
   - PRIV
   - SHOP
-  year: 2025
+  year: 2026
 - date: September 08 - 11
   deadline:
   - 2025-05-05 23:59
@@ -1332,20 +1345,20 @@
   - PRIV
   - SHOP
   year: 2025
-- comment: Co-located with ACM International Conference on Computing Frontiers 2025.
-  date: May 28
+- comment: Co-located with ACM International Conference on Computing Frontiers 2026
+  date: May 19
   deadline:
-  - 2025-03-10 23:59
+  - 2026-02-13 23:59
   description: Malicious Software and Hardware in Internet of Things
-  link: https://security.ucc.ie/mal-iot2025/
+  link: https://security.ucc.ie/mal-iot2026/
   name: MALIoT
-  place: Cagliari, Italy
+  place: Catania, Italy
   tags:
   - SEC
   - PRIV
   - CRYPTO
   - SHOP
-  year: 2025
+  year: 2026
 - date: July 4
   deadline:
   - 2025-03-02 23:59
@@ -1460,7 +1473,7 @@
 - comment: Co-located with ACM AsiaCCS
   date: June 2
   deadline:
-  - 2026-01-24 23:59
+  - 2026-01-31 23:59
   description: ACM Cyber-Physical System Security Workshop
   link: https://cpss26.github.io/
   name: CPSS
@@ -1563,19 +1576,19 @@
   - PRIV
   - SHOP
   year: 2025
-- date: December 1-2
+- date: November 5–6
   deadline:
-  - 2025-07-31 23:59
+  - 2026-05-01 23:59
   description: EAI International Conference on Security and Privacy in Cyber-Physical
     Systems and Smart Vehicles
-  link: https://smartsp.eai-conferences.org/2025/
+  link: https://smartsp.eai-conferences.org/
   name: SmartSP
-  place: Salt Lake City, USA
+  place: Detroit, MI, USA
   tags:
   - SEC
   - PRIV
   - CONF
-  year: 2025
+  year: 2026
 - comment: Co-located with ACM CCS 2025
   date: October 17
   deadline:
@@ -1654,19 +1667,19 @@
   - PRIV
   - SHOP
   year: 2025
-- comment: Co-located with USENIX Security 2025
-  date: August 11-12
+- comment: Co-located with USENIX Security 2026
+  date: August 10-11
   deadline:
-  - 2025-03-06 23:59
-  description: Symposium on Vehicle Security and Privacy
-  link: https://www.usenix.org/conference/vehiclesec25/call-for-papers
+  - 2026-02-24 23:59
+  description: USENIX Symposium on Vehicle Security and Privacy
+  link: https://www.usenix.org/conference/vehiclesec26
   name: VehicleSec
-  place: Seattle, WA, USA
+  place: Baltimore, USA
   tags:
   - SEC
   - PRIV
   - CONF
-  year: 2025
+  year: 2026
 - date: June 23-25
   deadline:
   - 2025-01-31 23:59
@@ -1924,4 +1937,57 @@
   - SEC
   - SHOP
   timezone: UTC
+  year: 2026
+- date: April 20-21
+  deadline:
+  - 2026-02-15 23:59
+  description: International Workshop on Trends in Digital Identity
+  link: https://st.fbk.eu/events/TDI2026/
+  name: TDI
+  place: Verona, Italy
+  tags:
+  - SEC
+  - PRIV
+  - SHOP
+  year: 2026
+- comment: Co-located with IEEE S&P 2026
+  date: May 21, 2026
+  deadline:
+  - 2026-02-13 23:59
+  description: The 1st Workshop on Datasets for Software Security
+  link: https://data4softsec26.ieee-security.org
+  name: Data4SoftSec
+  place: San Francisco, California, USA
+  tags:
+  - SEC
+  - PRIV
+  - SHOP
+  timezone: UTC
+  year: 2026
+- comment: Co-located with IEEE ICC 2026
+  date: May 24-28
+  deadline:
+  - 2026-01-31 23:59
+  description: Workshop on Cybersecurity of Digital Twins and Interconnected Cyber
+    Physical Systems
+  link: https://seccps.github.io/
+  name: SecCPS
+  place: Glasgow, UK
+  tags:
+  - SEC
+  - PRIV
+  - SHOP
+  year: 2026
+- comment: Co-located with IEEE S&P 2026
+  date: May 21, 2026
+  deadline:
+  - 2026-02-12 23:59
+  description: Workshop on Metascience and Critical Reflections in Security & Privacy
+  link: https://metacrisp.org
+  name: MetaCRiSP
+  place: San Francisco, California, USA
+  tags:
+  - SEC
+  - PRIV
+  - SHOP
   year: 2026
