@@ -526,6 +526,24 @@
   title: CIKM
   venue: COEX, Seoul, South Korea
   year: 2025
+- city: Rome
+  country: Italy
+  date: October 26-30, 2026
+  deadlines: []
+  end: 2026-10-30
+  era_rating: a
+  full_name: Conference on Information and Knowledge Management
+  hindex: 91.0
+  id: cikm26
+  link: https://cikm2026.org/
+  start: 2026-10-26
+  tags:
+  - web-search
+  - data-mining
+  - machine-learning
+  timezone: AoE
+  title: CIKM
+  year: 2026
 - city: Abu Dhabi
   country: UAE
   date: Jan 19 - Jan 24, 2025
@@ -608,15 +626,31 @@
     label: Paper Submission
     timezone: AoE
     type: paper
+  - date: '2026-05-22 00:00:00'
+    label: Rebuttal Period Start
+    timezone: AoE
+    type: rebuttal_start
+  - date: '2026-06-08 23:59:59'
+    label: Rebuttal Period End
+    timezone: AoE
+    type: rebuttal_end
+  - date: '2026-07-08 23:59:59'
+    label: Decision Notification
+    timezone: AoE
+    type: notification
+  end: 2026-10-09
   era_rating: a
   full_name: Conference on Language Modeling
   id: colm26
   link: https://colmweb.org/
+  rankings: 'CCF: N, CORE: N, THCPL: N'
+  start: 2026-10-06
   tags:
   - natural-language-processing
   - large-language-models
   timezone: AoE
   title: COLM
+  venue: Hilton San Francisco Union Square, USA
   year: 2026
 - city: Lyon
   country: France
@@ -744,21 +778,28 @@
   year: 2025
 - city: Austin
   country: United States
-  date: TBD 2026
-  deadline: null
-  end: null
+  date: November 9-12, 2026
+  deadlines:
+  - date: '2026-05-26 11:59:00'
+    label: Abstract submission deadline
+    timezone: UTC
+    type: abstract
+  - date: '2026-05-29 11:59:00'
+    label: Paper submission deadline
+    timezone: UTC
+    type: paper
+  end: '2026-11-12'
   full_name: The Conference on Robot Learning
   id: corl26
   link: https://www.corl.org/
-  note: Conference announced for Austin, TX. Specific dates and venue TBD.
+  note: Workshops on Nov 9, main conference Nov 10-12
   rankings: 'CCF: N, CORE: N, THCPL: N'
-  start: null
+  start: '2026-11-09'
   tags:
   - machine-learning
   - robotics
-  timezone: AoE
   title: CoRL
-  venue: TBD
+  venue: JW Marriott Austin, 110 E 2nd St, Austin, TX 78701
   year: 2026
 - city: Stanford
   country: USA
@@ -983,38 +1024,46 @@
   country: Sweden
   date: September 8-13, 2026
   deadlines:
-  - date: '2026-02-26 23:59:59'
+  - date: '2026-02-15 23:59:59'
+    label: Tutorial Proposal Submission
+    timezone: AoE
+    type: submission
+  - date: '2026-02-26 22:00:00'
     label: Paper Registration
-    timezone: CET
+    timezone: UTC
     type: registration
-  - date: '2026-03-05 23:59:59'
+  - date: '2026-02-27 23:59:59'
+    label: Workshop Proposal Submission
+    timezone: AoE
+    type: submission
+  - date: '2026-03-05 22:00:00'
     label: Paper Submission
-    timezone: CET
+    timezone: UTC
     type: paper
-  - date: '2026-03-12 23:59:59'
+  - date: '2026-03-12 22:00:00'
     label: Supplemental Materials
-    timezone: CET
+    timezone: UTC
     type: supplementary
+  - date: '2026-04-12 20:00:00'
+    label: Tutorial/Workshop Decisions
+    timezone: UTC
+    type: notification
   - date: '2026-05-02 23:59:59'
     label: Reviews Released to Authors
-    timezone: CET
+    timezone: UTC
     type: review_release
-  - date: '2026-05-11 23:59:59'
+  - date: '2026-05-11 21:00:00'
     label: Rebuttal Deadline
-    timezone: CET
+    timezone: UTC
     type: rebuttal_end
   - date: '2026-06-17 23:59:59'
     label: Final Decisions
-    timezone: CET
+    timezone: UTC
     type: notification
-  - date: '2026-06-27 23:59:59'
+  - date: '2026-06-26 23:59:59'
     label: Camera Ready Deadline
-    timezone: CET
-    type: camera_ready
-  - date: '2026-02-14 23:59:59'
-    label: Workshop/Tutorial Proposal Submission
     timezone: AoE
-    type: submission
+    type: camera_ready
   end: 2026-09-13
   era_rating: a
   full_name: European Conference on Computer Vision
@@ -1024,6 +1073,7 @@
   tags:
   - computer-vision
   title: ECCV
+  venue: Malmö Arena and Malmömässan
   year: 2026
 - city: Lucca
   country: Tuscany

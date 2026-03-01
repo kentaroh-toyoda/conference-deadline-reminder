@@ -307,19 +307,19 @@
   - SHOP
   year: 2025
 - comment: Co-located with ICST
-  date: March 31 - April 4
+  date: May 18 - 22
   deadline:
-  - 2025-01-03 23:59
-  description: International Workshop on Secure, Accountable, and Verifiable Machine
+  - 2026-02-27 23:59
+  description: 2nd International Workshop on Secure, Accountable, and Verifiable Machine
     Learning
-  link: https://conf.researchr.org/home/icst-2025/safe-ml-2025
+  link: https://conf.researchr.org/home/icst-2026/safe-ml-2026
   name: SAFE-ML
-  place: Naples, Italy
+  place: Daejeon, South Korea
   tags:
   - SEC
   - PRIV
   - SHOP
-  year: 2025
+  year: 2026
 - date: June 9 - 11
   deadline:
   - 2025-12-19 23:59
@@ -402,6 +402,20 @@
   name: PrivaCI
   place: Urbana-Champaign, USA
   tags:
+  - PRIV
+  - CONF
+  year: 2026
+- comment: Co-located with SAC 2026.
+  date: August 26-28
+  dblp: https://dblp.org/db/conf/pst/index.html
+  deadline:
+  - 2026-04-10 23:59
+  description: Annual International Conference on Privacy, Security, and Trust
+  link: https://pstnet.ca/
+  name: PST
+  place: Ottawa, Canada
+  tags:
+  - SEC
   - PRIV
   - CONF
   year: 2026
@@ -622,6 +636,17 @@
   - CRYPTO
   - CONF
   year: 2026
+- date: October 11-14
+  deadline:
+  - 2026-04-16 23:59
+  description: International Symposium on Research in Attacks, Intrusions and Defenses
+  link: https://raid2026.org
+  name: RAID
+  place: Lancaster, UK
+  tags:
+  - SEC
+  - CONF
+  year: 2026
 - date: March 23-27
   deadline:
   - 2025-10-17 23:59
@@ -633,17 +658,6 @@
   - SEC
   - CONF
   year: 2026
-- date: October 19-22
-  deadline:
-  - 2025-04-24 23:59
-  description: International Symposium on Research in Attacks, Intrusions and Defenses
-  link: https://raid2025.github.io
-  name: RAID
-  place: Gold Coast, Australia
-  tags:
-  - SEC
-  - CONF
-  year: 2025
 - date: Dec 9-13
   deadline:
   - 2025-05-30 23:59
@@ -1579,6 +1593,7 @@
 - date: November 5–6
   deadline:
   - 2026-05-01 23:59
+  - 2026-07-16 23:59
   description: EAI International Conference on Security and Privacy in Cyber-Physical
     Systems and Smart Vehicles
   link: https://smartsp.eai-conferences.org/
@@ -1940,7 +1955,7 @@
   year: 2026
 - date: April 20-21
   deadline:
-  - 2026-02-15 23:59
+  - 2026-02-22 23:59
   description: International Workshop on Trends in Digital Identity
   link: https://st.fbk.eu/events/TDI2026/
   name: TDI
@@ -1953,7 +1968,7 @@
 - comment: Co-located with IEEE S&P 2026
   date: May 21, 2026
   deadline:
-  - 2026-02-13 23:59
+  - 2026-02-20 23:59
   description: The 1st Workshop on Datasets for Software Security
   link: https://data4softsec26.ieee-security.org
   name: Data4SoftSec
@@ -1981,7 +1996,7 @@
 - comment: Co-located with IEEE S&P 2026
   date: May 21, 2026
   deadline:
-  - 2026-02-12 23:59
+  - 2026-02-19 23:59
   description: Workshop on Metascience and Critical Reflections in Security & Privacy
   link: https://metacrisp.org
   name: MetaCRiSP
