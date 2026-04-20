@@ -10,15 +10,23 @@ from zoneinfo import ZoneInfo
 from parser import Conference, ConferenceParser
 
 
+SUBMISSION_TYPES = {'abstract', 'paper', 'submission'}
+
+
 class DeadlineChecker:
     """Checks for upcoming conference deadlines."""
 
     def __init__(self, conferences: List[Conference]):
         self.conferences = conferences
 
+    @staticmethod
+    def _is_submission_deadline(dl_type: str) -> bool:
+        return dl_type in SUBMISSION_TYPES or dl_type.startswith('deadline')
+
     def get_upcoming_deadlines(self, days: int = 30) -> List[Dict[str, Any]]:
         """
-        Get all conferences with deadlines in the next N days.
+        Get all conferences whose submission deadline (abstract or paper) falls
+        within the next N days.
 
         Args:
             days: Number of days to look ahead (default: 30)
@@ -31,7 +39,10 @@ class DeadlineChecker:
         for conf in self.conferences:
             conf_deadlines = conf.get_upcoming_deadlines(days)
 
-            if conf_deadlines:
+            has_submission = any(
+                self._is_submission_deadline(dl['type']) for dl in conf_deadlines
+            )
+            if has_submission:
                 upcoming.append({
                     'conference': conf,
                     'deadlines': conf_deadlines,
