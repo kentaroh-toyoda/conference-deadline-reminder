@@ -1,19 +1,20 @@
 - comment: Abstract registration required (1 week before deadline AoE).
-  date: May 18-21
+  date: TBA
   dblp: https://dblp.org/db/conf/sp/index.html
   deadline:
-  - 2025-06-05 23:59
-  - 2025-11-13 23:59
+  - 2026-06-11 23:59
+  - 2026-11-17 23:59
   description: IEEE Symposium on Security and Privacy
-  link: https://sp2026.ieee-security.org/
+  link: https://sp2027.ieee-security.org/
   name: S&P (Oakland)
-  place: San Francisco, California, USA
+  place: Montreal, Canada
   tags:
   - SEC
   - PRIV
   - CONF
+  - ASTAR
   - TOP4
-  year: 2026
+  year: 2027
 - comment: Abstract registration required (1 week before deadline AoE).
   date: November 15-19
   dblp: https://dblp.org/db/conf/ccs/index.html
@@ -28,6 +29,7 @@
   - SEC
   - PRIV
   - CONF
+  - ASTAR
   - TOP4
   year: 2026
 - comment: Abstract registration required (1 week before deadline AoE).
@@ -44,25 +46,27 @@
   - SEC
   - PRIV
   - CONF
+  - ASTAR
   - TOP4
   year: 2027
-- comment: Abstract registration required (1 week before deadline AoE).
-  date: February 23-27
+- date: TBD
   dblp: https://dblp.org/db/conf/ndss/index.html
   deadline:
-  - 2025-04-23 23:59
-  - 2025-08-06 23:59
+  - 2026-05-06 23:59
+  - 2026-08-19 23:59
   description: ISOC Network and Distributed System Security Symposium
-  link: https://www.ndss-symposium.org/ndss2026/submissions/call-for-papers/
+  link: https://www.ndss-symposium.org/ndss2027/submissions/call-for-papers/
   name: NDSS
-  place: San Diego, CA, USA
+  place: TBD
   tags:
   - SEC
   - PRIV
   - CONF
+  - ASTAR
   - TOP4
-  year: 2026
+  year: 2027
 - date: September 14-18
+  dblp: https://dblp.org/db/conf/esorics/index.html
   deadline:
   - 2026-01-09 23:59
   - 2026-04-21 23:59
@@ -74,21 +78,40 @@
   - SEC
   - PRIV
   - CONF
+  - CORE-A
   year: 2026
 - date: July 12-16
+  dblp: https://dblp.org/db/conf/asiaccs/index.html
   deadline:
   - 2026-08-21 23:59
   - 2026-12-11 23:59
   description: ACM Asia Conference on Computer and Communications Security
   link: https://asiaccs2027.cityu.edu.mo/home/index.html
-  name: ASIACCS
+  name: ASIA CCS
   place: Macau
   tags:
   - SEC
   - PRIV
   - CONF
+  - CORE-A
   year: 2027
+- comment: Abstract registration required (1 week before deadline AoE).
+  date: July 6 - 10
+  dblp: https://dblp.org/db/conf/eurosp/index.html
+  deadline:
+  - 2025-11-20 23:59
+  description: IEEE European Symposium on Security and Privacy
+  link: https://eurosp2026.ieee-security.org/
+  name: Euro S&P
+  place: Lisbon, Portugal
+  tags:
+  - SEC
+  - PRIV
+  - CONF
+  - CORE-A
+  year: 2026
 - date: July 26-29
+  dblp: https://dblp.org/db/conf/csfw/index.html
   deadline:
   - 2025-07-24 23:59
   - 2025-10-09 23:59
@@ -101,8 +124,10 @@
   - SEC
   - PRIV
   - CONF
+  - CORE-A
   year: 2026
 - date: November 23-25
+  dblp: https://dblp.org/db/conf/cans/index.html
   deadline:
   - 2026-06-10 23:59
   description: International Conference on Cryptology and Network Security
@@ -113,8 +138,10 @@
   - SEC
   - CRYPTO
   - CONF
+  - CORE-B
   year: 2026
 - date: June 30 - July 3
+  dblp: https://dblp.org/db/conf/wisec/index.html
   deadline:
   - 2025-11-18 23:59
   - 2026-03-03 23:59
@@ -126,71 +153,38 @@
   - SEC
   - PRIV
   - CONF
+  - CORE-B
   year: 2026
-- comment: Abstract registration required (1 week before deadline AoE).
-  date: August 23-26
+- date: June 9 - 11
+  dblp: https://dblp.org/db/conf/sec/index.html
   deadline:
-  - 2026-02-19 23:59
-  description: Symposium on Usable Privacy and Security
-  link: https://soups.page/
-  name: SOUPS
-  place: Hannover, Germany
+  - 2025-12-19 23:59
+  description: IFIP International Information Security and Privacy Conference
+  link: https://ifipsec.org/cfp.html
+  name: IFIP SEC
+  place: Perth, Australia
   tags:
   - SEC
-  - PRIV
   - CONF
+  - CORE-B
   year: 2026
-- comment: Paper registration due May 5th AoE
-  date: September 10-September 11
+- date: October 28-30
+  dblp: https://dblp.org/db/conf/isw/index.html
   deadline:
-  - 2025-05-09 23:59
-  description: European Symposium on Usable Security
-  link: https://eurousec2025.cis.strath.ac.uk/
-  name: EuroUSEC
-  place: Manchester, UK
-  tags:
-  - SEC
-  - PRIV
-  - CONF
-  year: 2025
-- date: March 2–6
-  deadline:
-  - 2025-09-20 23:59
-  description: Financial Cryptography and Data Security
-  link: https://fc26.ifca.ai
-  name: FC
-  place: St. Kitts
-  tags:
-  - SEC
-  - CRYPTO
-  - CONF
-  year: 2026
-- comment: Abstract registration required (1 week before deadline AoE).
-  date: July 6 - 10
-  deadline:
-  - 2025-11-20 23:59
-  description: IEEE European Symposium on Security and Privacy
-  link: https://eurosp2026.ieee-security.org/
-  name: Euro S&P
-  place: Lisbon, Portugal
-  tags:
-  - SEC
-  - PRIV
-  - CONF
-  year: 2026
-- date: October 20-22
-  deadline:
-  - 2025-06-11 23:59
+  - 2026-06-22 23:59
   description: Information Security Conference
-  link: https://isc25.skku.edu/
+  link: https://isc2026.github.io/
   name: ISC
-  place: Seoul, South Korea
+  place: Rennes, France
   tags:
+  - CRYPTO
   - SEC
   - PRIV
   - CONF
-  year: 2025
+  - CORE-C
+  year: 2026
 - date: November 14-17
+  dblp: https://dblp.org/db/conf/trustcom/index.html
   deadline:
   - 2025-08-01 23:59
   description: International Conference on Trust, Security and Privacy in Computing
@@ -202,8 +196,10 @@
   - SEC
   - PRIV
   - CONF
+  - CORE-B
   year: 2025
 - date: November 25-27
+  dblp: https://dblp.org/db/conf/fps/index.html
   deadline:
   - 2025-09-15 23:59
   description: International Symposium on Foundations & Practice of Security
@@ -215,6 +211,7 @@
   - PRIV
   - CRYPTO
   - CONF
+  - CORE-B
   year: 2025
 - date: July 21-24
   dblp: https://dblp.org/db/conf/securecomm/index.html
@@ -227,106 +224,27 @@
   tags:
   - SEC
   - CONF
+  - CORE-C
   year: 2026
-- date: Nov 20-22
-  deadline:
-  - 2024-07-01 23:59
-  description: International Conference on Network and System Security and International
-    Symposium on Security and Privacy in Social Networks and Big Data
-  link: http://nsclab.org/nss-socialsec2024/index.html
-  name: NSS-SocialSec
-  place: Abu Dhabi, UAE
-  tags:
-  - SEC
-  - PRIV
-  - CRYPTO
-  - CONF
-  year: 2024
-- date: September 15–16
-  deadline:
-  - 2025-04-20 23:59
-  description: International Conference on IT Security Incident Management and IT
-    Forensics
-  link: https://www.imf-conference.org/cfp.html
-  name: IMF
-  place: Bonn, Germany
-  tags:
-  - SEC
-  - CONF
-  timezone: Etc/UTC
-  year: 2026
-- date: May 29-31
+- date: October 9-11
+  dblp: https://dblp.org/db/conf/sss/index.html
   deadline:
   - 2026-03-31 23:59
-  description: International Conference on Science of Cyber Security
-  link: https://scisec.org/
-  name: SciSec
-  place: Beijing, China
+  - 2026-05-15 23:59
+  - 2026-07-15 23:59
+  description: International Symposium on Stabilization, Safety, and Security of Distributed
+    Systems
+  link: https://sss2026.conf.lip6.fr/
+  name: SSS
+  place: Gothenburg, Sweden
   tags:
   - SEC
   - CONF
+  - CORE-C
   year: 2026
-- date: Sep 2-3, 2026
-  deadline:
-  - 2026-04-13 23:59
-  description: International Conference on Design of Cyber-Secure Critical Infrastructure
-  link: https://dcs-ci.github.io
-  name: DCS-CI
-  place: Buford, Georgia, USA
-  tags:
-  - SEC
-  - CONF
-  year: 2026
-- comment: Abstract registration required (May 20 AoE).
-  date: September 2-3
-  deadline:
-  - 2026-05-25 23:59
-  description: Conference on Sociotechnical Cybersecurity and Privacy
-  link: https://scpconf.eu/
-  name: SCP
-  place: Belval, Luxembourg
-  tags:
-  - SEC
-  - PRIV
-  - CONF
-  year: 2026
-- date: June 9 - 11
-  deadline:
-  - 2025-12-19 23:59
-  description: IFIP International Information Security and Privacy Conference
-  link: https://ifipsec.org/cfp.html
-  name: IFIP SEC
-  place: Perth, Australia
-  tags:
-  - SEC
-  - CONF
-  year: 2026
-- date: July 6-9
-  deadline:
-  - 2025-11-27 23:59
-  - 2026-02-26 23:59
-  description: Australasian Conference on Information Security and Privacy
-  link: https://acisp.org/
-  name: ACISP
-  place: Perth, Australia
-  tags:
-  - SEC
-  - PRIV
-  - CONF
-  year: 2026
-- date: February 3-8
-  deadline:
-  - 2024-12-09 23:59
-  description: Italian Conference on Cybersecurity
-  link: https://itasec.it/
-  name: ITASEC
-  place: Bologna, IT
-  tags:
-  - SEC
-  - CONF
-  year: 2025
 - comment: Rolling deadline every quarter
   date: TBD
+  dblp: https://dblp.org/db/conf/pet/index.html
   deadline:
   - '%Y-05-31 23:59'
   - '%Y-08-31 23:59'
@@ -339,7 +257,38 @@
   tags:
   - PRIV
   - CONF
+  - CORE-A
   year: 2027
+- comment: Abstract registration required (1 week before deadline AoE).
+  date: August 23-26
+  dblp: https://dblp.org/db/conf/soups/index.html
+  deadline:
+  - 2026-02-19 23:59
+  description: Symposium on Usable Privacy and Security
+  link: https://soups.page/
+  name: SOUPS
+  place: Hannover, Germany
+  tags:
+  - SEC
+  - PRIV
+  - CONF
+  - CORE-A
+  year: 2026
+- comment: Paper registration due May 5th AoE
+  date: September 10-September 11
+  dblp: https://dblp.org/db/conf/eurousec/index.html
+  deadline:
+  - 2025-05-09 23:59
+  description: European Symposium on Usable Security
+  link: https://eurousec2025.cis.strath.ac.uk/
+  name: EuroUSEC
+  place: Manchester, UK
+  tags:
+  - SEC
+  - PRIV
+  - CONF
+  - OTHERS
+  year: 2025
 - date: June 24-25
   deadline:
   - 2026-02-13 23:59
@@ -350,22 +299,39 @@
   tags:
   - PRIV
   - CONF
+  - OTHERS
   year: 2026
 - comment: Co-located with SAC 2026.
   date: August 26-28
   dblp: https://dblp.org/db/conf/pst/index.html
   deadline:
-  - 2026-04-10 23:59
+  - 2026-04-28 23:59
   description: Annual International Conference on Privacy, Security, and Trust
-  link: https://pstnet.ca/
+  link: https://pstnet.ca/pst2026
   name: PST
   place: Ottawa, Canada
   tags:
   - SEC
   - PRIV
   - CONF
+  - CORE-C
+  year: 2026
+- date: September 9-10
+  dblp: https://dblp.org/db/conf/apf/index.html
+  deadline:
+  - 2026-04-15 23:59
+  description: Annual Privacy Forum
+  link: https://privacyforum.eu/callforpapers.html
+  name: APF
+  place: Salzburg, Austria
+  tags:
+  - SEC
+  - PRIV
+  - CONF
+  - OTHERS
   year: 2026
 - date: August 17-20
+  dblp: https://dblp.org/db/conf/crypto/index.html
   deadline:
   - 2026-02-12 23:59
   description: International Cryptology Conference
@@ -375,10 +341,11 @@
   tags:
   - CRYPTO
   - CONF
-  - TOP4
+  - ASTAR
   timezone: Etc/GMT+8
   year: 2026
 - date: May 10-14
+  dblp: https://dblp.org/db/conf/eurocrypt/index.html
   deadline:
   - 2025-10-02 23:59
   description: European Cryptology Conference
@@ -388,23 +355,10 @@
   tags:
   - CRYPTO
   - CONF
-  - TOP4
-  year: 2026
-- date: November 7-9
-  deadline:
-  - 2025-04-15 23:59
-  - 2025-06-15 23:59
-  description: International Conference on Information Security and Cryptology
-  link: https://inscrypt2026.comp.polyu.edu.hk/
-  name: Inscrypt
-  place: Hong Kong SAR, China
-  tags:
-  - SEC
-  - PRIV
-  - CRYPTO
-  - CONF
+  - ASTAR
   year: 2026
 - date: August 26-28
+  dblp: https://dblp.org/db/conf/sacrypt/index.html
   deadline:
   - 2026-02-02 23:59
   - 2026-05-11 23:59
@@ -415,22 +369,40 @@
   tags:
   - CRYPTO
   - CONF
+  - CORE-B
   year: 2026
-- date: December 8-12
+- date: December 7-11
+  dblp: https://dblp.org/db/conf/asiacrypt/index.html
   deadline:
-  - 2025-05-16 12:00
+  - 2026-05-22 12:00
   description: International Conference on the Theory and Application of Cryptology
     and Information Security
-  link: https://asiacrypt.iacr.org/2025/
+  link: https://asiacrypt.iacr.org/2026/
   name: Asiacrypt
-  place: Melbourne, Australia
+  place: Hong Kong, China
   tags:
   - CRYPTO
   - CONF
+  - CORE-A
   timezone: Etc/GMT
-  year: 2025
+  year: 2026
+- date: March 2–6
+  dblp: https://dblp.org/db/conf/fc/index.html
+  deadline:
+  - 2025-09-20 23:59
+  description: Financial Cryptography and Data Security
+  link: https://fc26.ifca.ai
+  name: FC
+  place: St. Kitts
+  tags:
+  - SEC
+  - CRYPTO
+  - CONF
+  - CORE-A
+  year: 2026
 - comment: Abstract registration required (1 week before deadline AoE).
   date: October 6–9
+  dblp: https://dblp.org/db/conf/aft/index.html
   deadline:
   - 2026-05-27 23:59
   description: ACM Conference on Advances in Financial Technologies
@@ -442,8 +414,10 @@
   - PRIV
   - CRYPTO
   - CONF
+  - CORE-B
   year: 2026
 - date: November 10-13
+  dblp: https://dblp.org/db/conf/tcc/index.html
   deadline:
   - 2026-05-19 23:59
   description: Theory of Cryptography Conference
@@ -453,8 +427,10 @@
   tags:
   - CRYPTO
   - CONF
+  - CORE-B
   year: 2026
 - date: May 25-28
+  dblp: https://dblp.org/db/conf/pkc/index.html
   deadline:
   - 2025-10-24 09:59
   description: International Conference on Practice and Theory of Public Key Cryptography
@@ -464,8 +440,10 @@
   tags:
   - CRYPTO
   - CONF
+  - CORE-B
   year: 2026
 - date: March 23-26
+  dblp: https://dblp.org/db/conf/ctrsa/index.html
   deadline:
   - 2025-10-24 23:59
   description: RSA Conference Cryptographers’ Track
@@ -475,8 +453,10 @@
   tags:
   - CRYPTO
   - CONF
+  - CORE-B
   year: 2026
 - date: July 16-18
+  dblp: https://dblp.org/db/conf/secrypt/index.html
   deadline:
   - 2026-03-03 23:59
   - 2026-04-16 23:59
@@ -488,8 +468,10 @@
   - SEC
   - CRYPTO
   - CONF
+  - CORE-C
   year: 2026
 - date: July 08-10
+  dblp: https://dblp.org/db/conf/africacrypt/index.html
   deadline:
   - 2026-03-01 23:59
   description: International Conference on Cryptography Africa
@@ -499,9 +481,11 @@
   tags:
   - CRYPTO
   - CONF
+  - OTHERS
   year: 2026
 - comment: Extended submission deadline May 16th 23:59 AoE
   date: October 1-3
+  dblp: https://dblp.org/db/conf/latincrypt/index.html
   deadline:
   - 2025-05-16 23:59
   description: International Conference on Cryptology and Information Security in
@@ -512,9 +496,11 @@
   tags:
   - CRYPTO
   - CONF
+  - OTHERS
   year: 2025
 - comment: Rolling deadline every quarter
   date: TBD
+  dblp: https://dblp.org/db/journals/tosc/index.html
   deadline:
   - '%Y-03-01 23:59'
   - '%Y-06-01 23:59'
@@ -527,9 +513,12 @@
   tags:
   - CRYPTO
   - CONF
+  - CORE-B
+  - JRN
   year: 2027
 - comment: Rolling deadline every quarter
-  date: October 11-15
+  date: TBD
+  dblp: https://dblp.org/db/journals/tches/index.html
   deadline:
   - '%Y-07-15 23:59'
   - '%Y-10-15 23:59'
@@ -538,10 +527,359 @@
   description: IACR Transactions on Cryptographic Hardware and Embedded Systems
   link: https://ches.iacr.org/2026/
   name: CHES
-  place: Antalya, Türkiye
+  place: TBD
   tags:
   - CRYPTO
   - CONF
+  - JRN
+  - CORE-A
+  year: 2027
+- date: December 15-16
+  dblp: https://dblp.org/db/conf/ima/index.html
+  deadline:
+  - 2026-07-31 23:59
+  description: IMA International Conference on Cryptography and Coding
+  link: https://ima.org.uk/28271/20th-ima-international-conference-on-cryptography-and-coding/
+  name: C&C
+  place: Cirencester, UK
+  tags:
+  - CRYPTO
+  - CONF
+  - CORE-C
+  year: 2026
+- comment: Abstract registration required (1 week before deadline AoE).
+  date: November 02-04
+  deadline:
+  - 2026-07-26 23:59
+  description: ACM Conference on Post-Quantum and Quantum-based Security
+  link: https://www.pqqs.org
+  name: PQQS
+  place: San Jose, USA
+  tags:
+  - CRYPTO
+  - SEC
+  - CONF
+  - OTHERS
+  year: 2026
+- date: October 11-14
+  dblp: https://dblp.org/db/conf/raid/index.html
+  deadline:
+  - 2026-04-16 23:59
+  description: International Symposium on Research in Attacks, Intrusions and Defenses
+  link: https://raid2026.org
+  name: RAID
+  place: Lancaster, UK
+  tags:
+  - SEC
+  - CONF
+  - CORE-A
+  year: 2026
+- date: March 23-27
+  dblp: https://dblp.org/db/conf/sac/index.html
+  deadline:
+  - 2025-10-17 23:59
+  description: ACM/SIGAPP Symposium On Applied Computing
+  link: https://www.sigapp.org/sac/sac2026/
+  name: SAC
+  place: Thessaloniki, Greece
+  tags:
+  - SEC
+  - CONF
+  - OTHERS
+  year: 2026
+- date: Dec 7-11
+  dblp: https://dblp.org/db/conf/acsac/index.html
+  deadline:
+  - 2026-05-26 23:59
+  description: Annual Computer Security Applications Conference
+  link: https://www.acsac.org/2026/submissions/papers/
+  name: ACSAC
+  place: Los Angeles, CA, USA
+  tags:
+  - SEC
+  - CONF
+  - CORE-A
+  year: 2026
+- comment: Abstract registration required (1 week before deadline AoE).
+  date: June 22-25
+  dblp: https://dblp.org/db/conf/dsn/index.html
+  deadline:
+  - 2025-12-04 23:59
+  description: The International Conference on Dependable Systems and Networks
+  link: https://dsn2026.github.io/
+  name: DSN
+  place: Charlotte, NC, USA
+  tags:
+  - SEC
+  - CONF
+  - CORE-A
+  year: 2026
+- date: June 22-25
+  dblp: https://dblp.org/db/conf/acns/index.html
+  deadline:
+  - 2025-09-25 23:59
+  - 2026-01-23 23:59
+  description: International Conference on Applied Cryptography and Network Security
+  link: https://acns2026.github.io/
+  name: ACNS
+  place: New York, NY
+  tags:
+  - CRYPTO
+  - SEC
+  - CONF
+  - CORE-B
+  year: 2026
+- date: July 01-03
+  dblp: https://dblp.org/db/conf/dimva/index.html
+  deadline:
+  - 2025-12-03 23:59
+  - 2026-02-11 23:59
+  description: The Conference on Detection of Intrusions and Malware & Vulnerability
+    Assessment
+  link: https://www.dimva.org/dimva2026/
+  name: DIMVA
+  place: Chania, Greece
+  tags:
+  - SEC
+  - CONF
+  - CORE-B
+  year: 2026
+- date: July 8-10
+  dblp: https://dblp.org/db/conf/sacmat/index.html
+  deadline:
+  - 2025-10-27 23:59
+  - 2026-03-06 23:59
+  description: ACM Symposium on Access Control Models and Technologies
+  link: https://www.sacmat.org/2026/
+  name: SACMAT
+  place: Waterloo, Canada
+  tags:
+  - CRYPTO
+  - SEC
+  - CONF
+  - PRIV
+  - CORE-C
+  year: 2026
+- date: August 24–27
+  dblp: https://dblp.org/db/conf/IEEEares/index.html
+  deadline:
+  - 2026-03-09 23:59
+  description: International Conference on Availability, Reliability and Security
+  link: https://www.ares-conference.eu/
+  name: ARES
+  note: Abstract registration deadline March 2, 2026.
+  place: Linköping, Sweden
+  tags:
+  - SEC
+  - PRIV
+  - CONF
+  - CORE-B
+  year: 2026
+- comment: Abstract registration required (1 week before deadline AoE).
+  date: June 23-25
+  dblp: https://dblp.org/db/conf/codaspy/index.html
+  deadline:
+  - 2026-01-02 23:59
+  description: ACM Conference on Data and Application Security and Privacy
+  link: http://www.codaspy.org/2026/
+  name: CODASPY
+  place: Frankfurt am Main, Germany
+  tags:
+  - CRYPTO
+  - SEC
+  - CONF
+  - PRIV
+  - OTHERS
+  year: 2026
+- date: July 28-30
+  dblp: https://dblp.org/db/conf/dbsec/index.html
+  deadline:
+  - 2025-03-27 23:59
+  description: Conference on Data and Applications Security and Privacy
+  link: https://dbsec2026.gmu.edu/
+  name: DBSec
+  place: Arlington, Virginia, USA
+  tags:
+  - CRYPTO
+  - SEC
+  - CONF
+  - PRIV
+  - CORE-B
+  year: 2026
+- comment: Abstract deadline September 30 AoE.
+  date: April 13-17
+  dblp: https://dblp.org/db/conf/www/index.html
+  deadline:
+  - 2025-10-07 23:59
+  description: International Conference on the World Wide Web
+  link: https://www2026.thewebconf.org
+  name: The Web Conference
+  place: Dubai, United Arab Emirates
+  tags:
+  - SEC
+  - CONF
+  - PRIV
+  - ASTAR
+  year: 2026
+- date: November 15-18
+  dblp: https://dblp.org/db/conf/usenix/index.html
+  deadline:
+  - 2026-06-10 23:59
+  description: ACM SIGOPS Annual Technical Conference
+  link: https://sigops.org/s/conferences/atc/2026/index.html
+  name: ATC
+  place: Shatin, Hong Kong
+  tags:
+  - SEC
+  - CONF
+  - PRIV
+  - CORE-A
+  year: 2026
+- date: November 2-6
+  dblp: https://dblp.org/db/conf/ecrime/index.html
+  deadline:
+  - 2026-05-30 23:59
+  description: The Symposium on Electronic Crime Research
+  link: https://apwg.org/events/ecrime2026
+  name: eCrime
+  place: Lisbon, Portugal
+  tags:
+  - SEC
+  - PRIV
+  - CONF
+  - OTHERS
+  year: 2026
+- comment: Abstract registration required (1 week before deadline AoE).
+  date: March 23-25
+  dblp: https://dblp.org/db/conf/pam/index.html
+  deadline:
+  - 2025-10-08 23:59
+  description: Passive and Active Measurement Conference
+  link: https://pam2026.at/
+  name: PAM
+  place: Virtual
+  tags:
+  - SEC
+  - PRIV
+  - CONF
+  - CORE-B
+  year: 2026
+- comment: Co-located with USENIX Security 2026
+  date: August 10-11
+  dblp: https://dblp.org/db/conf/vehiclesec/index.html
+  deadline:
+  - 2026-02-24 23:59
+  description: USENIX Symposium on Vehicle Security and Privacy
+  link: https://www.usenix.org/conference/vehiclesec26
+  name: VehicleSec
+  place: Baltimore, USA
+  tags:
+  - SEC
+  - PRIV
+  - CONF
+  - OTHERS
+  year: 2026
+- date: November 10-13
+  dblp: https://dblp.org/db/conf/nca/index.html
+  deadline:
+  - 2026-06-19 23:59
+  description: International Symposium on Network Computing and Applications
+  link: https://www.nca-ieee.org/2026/index.html
+  name: NCA
+  place: Ortigia-Syracuse (Sicily), Italy
+  tags:
+  - SEC
+  - CONF
+  - CORE-B
+  year: 2026
+- date: October 22-24
+  dblp: https://dblp.org/db/conf/crisis/index.html
+  deadline:
+  - 2025-07-15 23:59
+  description: International Conference on Risks and Security of Internet and Systems
+  link: https://crisis2025.uqo.ca
+  name: CRISIS
+  place: Gatineau, Canada
+  tags:
+  - SEC
+  - PRIV
+  - CONF
+  - CORE-C
+  year: 2025
+- date: September 24-26
+  dblp: https://dblp.org/db/conf/provsec/index.html
+  deadline:
+  - 2026-05-31 23:59
+  description: International Conference on Provable and Practical Security
+  link: https://provsec-2026.github.io/Provsec2026-base/
+  name: ProvSec
+  place: Queenstown, New Zealand
+  tags:
+  - SEC
+  - PRIV
+  - CONF
+  - CORE-C
+  year: 2026
+- comment: Abstract registration required (1 week before deadline AoE).
+  date: November 3-6
+  dblp: https://dblp.org/db/conf/imc/index.html
+  deadline:
+  - 2025-11-20 23:59
+  - 2026-04-29 23:59
+  description: ACM Internet Measurement Conference
+  link: https://conferences.sigcomm.org/imc/2026/
+  name: IMC
+  place: Karlsruhe, Germany
+  tags:
+  - SEC
+  - PRIV
+  - CONF
+  - CORE-A
+  year: 2026
+- comment: Abstract registration required (1 week before deadline AoE).
+  date: May 4-7
+  dblp: https://dblp.org/db/conf/host/index.html
+  deadline:
+  - 2025-08-26 23:59
+  - 2025-12-08 23:59
+  description: IEEE International Symposium on Hardware Oriented Security and Trust
+  link: http://www.hostsymposium.org/
+  name: HOST
+  place: Washington DC, USA
+  tags:
+  - SEC
+  - CONF
+  - OTHERS
+  year: 2026
+- date: December 11-13
+  dblp: https://dblp.org/db/conf/asianhost/index.html
+  deadline:
+  - 2026-07-14 23:59
+  description: Asian Hardware Oriented Security and Trust Symposium
+  link: https://www.asianhost.org/2026/
+  name: AsianHOST
+  place: Kharagpur, India
+  tags:
+  - SEC
+  - CONF
+  - OTHERS
+  timezone: Asia/Shanghai
+  year: 2026
+- date: November 7-9
+  dblp: https://dblp.org/db/conf/cisc/index.html
+  deadline:
+  - 2025-04-15 23:59
+  - 2025-06-15 23:59
+  description: International Conference on Information Security and Cryptology
+  link: https://inscrypt2026.comp.polyu.edu.hk/
+  name: Inscrypt
+  place: Hong Kong SAR, China
+  tags:
+  - SEC
+  - PRIV
+  - CRYPTO
+  - CONF
+  - OTHERS
   year: 2026
 - date: March 30 - April 1
   deadline:
@@ -555,218 +893,56 @@
   tags:
   - CRYPTO
   - CONF
-  year: 2026
-- date: October 11-14
-  deadline:
-  - 2026-04-16 23:59
-  description: International Symposium on Research in Attacks, Intrusions and Defenses
-  link: https://raid2026.org
-  name: RAID
-  place: Lancaster, UK
-  tags:
-  - SEC
-  - CONF
-  year: 2026
-- date: March 23-27
-  deadline:
-  - 2025-10-17 23:59
-  description: ACM/SIGAPP Symposium On Applied Computing
-  link: https://www.sigapp.org/sac/sac2026/
-  name: ACM SAC
-  place: Thessaloniki, Greece
-  tags:
-  - SEC
-  - CONF
-  year: 2026
-- date: Dec 9-13
-  deadline:
-  - 2025-05-30 23:59
-  description: Annual Computer Security Applications Conference
-  link: https://www.acsac.org/2025/submissions/papers/
-  name: ACSAC
-  place: Honolulu, Hawaii, USA
-  tags:
-  - SEC
-  - CONF
-  year: 2025
-- comment: Abstract registration required (1 week before deadline AoE).
-  date: June 22-25
-  deadline:
-  - 2025-12-04 23:59
-  description: The International Conference on Dependable Systems and Networks
-  link: https://dsn2026.github.io/
-  name: DSN
-  place: Charlotte, NC, USA
-  tags:
-  - SEC
-  - CONF
-  year: 2026
-- date: June 22-25
-  deadline:
-  - 2025-09-25 23:59
-  - 2026-01-23 23:59
-  description: International Conference on Applied Cryptography and Network Security
-  link: https://acns2026.github.io/
-  name: ACNS
-  place: New York, NY
-  tags:
-  - CRYPTO
-  - SEC
-  - CONF
-  year: 2026
-- date: July 01-03
-  deadline:
-  - 2025-12-03 23:59
-  - 2026-02-11 23:59
-  description: The Conference on Detection of Intrusions and Malware & Vulnerability
-    Assessment
-  link: https://www.dimva.org/dimva2026/
-  name: DIMVA
-  place: Chania, Greece
-  tags:
-  - SEC
-  - CONF
-  year: 2026
-- date: July 8-10
-  deadline:
-  - 2025-10-27 23:59
-  - 2026-03-06 23:59
-  description: ACM Symposium on Access Control Models and Technologies
-  link: https://www.sacmat.org/2026/
-  name: SACMAT
-  place: Waterloo, Canada
-  tags:
-  - CRYPTO
-  - SEC
-  - CONF
-  - PRIV
-  year: 2026
-- date: August 24–27
-  deadline:
-  - 2026-03-09 23:59
-  description: International Conference on Availability, Reliability and Security
-  link: https://www.ares-conference.eu/
-  name: ARES
-  note: Abstract registration deadline March 2, 2026.
-  place: Linköping, Sweden
-  tags:
-  - SEC
-  - PRIV
-  - CONF
+  - OTHERS
   year: 2026
 - comment: Abstract registration required (1 week before deadline AoE).
-  date: June 23-25
+  date: April 25 - May 1
   deadline:
-  - 2026-01-02 23:59
-  description: ACM Conference on Data and Application Security and Privacy
-  link: http://www.codaspy.org/2026/
-  name: CODASPY
-  place: Frankfurt am Main, Germany
+  - 2026-06-30 23:59
+  description: IEEE/ACM International Conference on Software Engineering
+  link: https://conf.researchr.org/home/icse-2027
+  name: ICSE
+  place: Dublin, Ireland
   tags:
-  - CRYPTO
   - SEC
   - CONF
-  - PRIV
+  - ASTAR
+  year: 2027
+- date: October 12 - 16
+  deadline:
+  - 2026-03-26 23:59
+  description: IEEE/ACM Automated Software Engineering
+  link: https://conf.researchr.org/home/ase-2026
+  name: ASE
+  place: Munich, Germany
+  tags:
+  - SEC
+  - CONF
+  - ASTAR
   year: 2026
-- date: July 28-30
+- date: July 12 - 16
   deadline:
-  - 2025-03-27 23:59
-  description: Conference on Data and Applications Security and Privacy
-  link: https://dbsec2026.gmu.edu/
-  name: DBSec
-  place: Arlington, Virginia, USA
-  tags:
-  - CRYPTO
-  - SEC
-  - CONF
-  - PRIV
-  year: 2026
-- comment: Abstract deadline September 30 AoE.
-  date: April 13-17
-  deadline:
-  - 2025-10-07 23:59
-  description: International Conference on the World Wide Web
-  link: https://www2026.thewebconf.org
-  name: The Web Conference
-  place: Dubai, United Arab Emirates
+  - 2026-10-09 23:59
+  description: ACM International Conference on the Foundations of Software Engineering
+  link: https://conf.researchr.org/home/fse-2026
+  name: ESEC/FSE
+  place: Shenzhen, China
   tags:
   - SEC
   - CONF
-  - PRIV
-  year: 2026
-- date: November 4-7
+  - ASTAR
+  year: 2027
+- date: October 3 - 9
   deadline:
-  - 2025-07-29 23:59
-  description: The Symposium on Electronic Crime Research
-  link: https://apwg.org/event/ecrime2025/
-  name: eCrime
-  place: San Diego, CA, USA
-  tags:
-  - SEC
-  - PRIV
-  - CONF
-  year: 2025
-- comment: Abstract registration required (1 week before deadline AoE).
-  date: March 23-25
-  deadline:
-  - 2025-10-08 23:59
-  description: Passive and Active Measurement Conference
-  link: https://pam2026.at/
-  name: PAM
-  place: Virtual
-  tags:
-  - SEC
-  - PRIV
-  - CONF
-  year: 2026
-- date: October 24-26
-  deadline:
-  - 2024-08-04 23:59
-  description: International Symposium on Network Computing and Applications
-  link: https://www.nca-ieee.org/2024/index.html
-  name: NCA
-  place: Bertinoro, Italy
+  - 2026-01-29 23:59
+  description: ACM SIGSOFT International Symposium on Software Testing and Analysis
+  link: https://conf.researchr.org/home/issta-2026
+  name: ISSTA
+  place: Oakland, CA, USA
   tags:
   - SEC
   - CONF
-  year: 2024
-- date: October 22-24
-  deadline:
-  - 2025-07-15 23:59
-  description: International Conference on Risks and Security of Internet and Systems
-  link: https://crisis2025.uqo.ca
-  name: CRISIS
-  place: Gatineau, Canada
-  tags:
-  - SEC
-  - PRIV
-  - CONF
-  year: 2025
-- date: October 10-12
-  deadline:
-  - 2025-05-31 23:59
-  description: International Conference on Provable and Practical Security
-  link: https://sulab-sever.u-aizu.ac.jp/provsec2025/index.html
-  name: ProvSec
-  place: Yokohama, Japan
-  tags:
-  - SEC
-  - PRIV
-  - CONF
-  year: 2025
-- comment: Abstract registration required (1 week before deadline AoE).
-  date: November 3-6
-  deadline:
-  - 2025-11-20 23:59
-  - 2026-04-29 23:59
-  description: ACM Internet Measurement Conference
-  link: https://conferences.sigcomm.org/imc/2026/
-  name: ACM IMC
-  place: Karlsruhe, Germany
-  tags:
-  - SEC
-  - PRIV
-  - CONF
+  - CORE-A
   year: 2026
 - date: November 4 - 6
   deadline:
@@ -779,6 +955,7 @@
   tags:
   - SEC
   - CONF
+  - OTHERS
   year: 2025
 - date: December 13-15
   deadline:
@@ -791,6 +968,7 @@
   - SEC
   - CONF
   - CRYPTO
+  - OTHERS
   year: 2026
 - date: January 29-30
   deadline:
@@ -804,7 +982,113 @@
   - SEC
   - PRIV
   - CONF
+  - OTHERS
   year: 2024
+- date: Nov 20-22
+  deadline:
+  - 2024-07-01 23:59
+  description: International Conference on Network and System Security and International
+    Symposium on Security and Privacy in Social Networks and Big Data
+  link: http://nsclab.org/nss-socialsec2024/index.html
+  name: NSS-SocialSec
+  place: Abu Dhabi, UAE
+  tags:
+  - SEC
+  - PRIV
+  - CRYPTO
+  - CONF
+  - OTHERS
+  year: 2024
+- date: September 15–16
+  deadline:
+  - 2025-04-20 23:59
+  description: International Conference on IT Security Incident Management and IT
+    Forensics
+  link: https://www.imf-conference.org/cfp.html
+  name: IMF
+  place: Bonn, Germany
+  tags:
+  - SEC
+  - CONF
+  - OTHERS
+  timezone: Etc/UTC
+  year: 2026
+- date: May 29-31
+  deadline:
+  - 2026-03-31 23:59
+  description: International Conference on Science of Cyber Security
+  link: https://scisec.org/
+  name: SciSec
+  place: Beijing, China
+  tags:
+  - SEC
+  - CONF
+  - OTHERS
+  year: 2026
+- date: Sep 2-3, 2026
+  deadline:
+  - 2026-05-04 23:59
+  description: International Conference on Design of Cyber-Secure Critical Infrastructure
+  link: https://dcs-ci.github.io
+  name: DCS-CI
+  place: Buford, Georgia, USA
+  tags:
+  - SEC
+  - CONF
+  - OTHERS
+  year: 2026
+- comment: Abstract registration required (May 20 AoE).
+  date: September 2-3
+  deadline:
+  - 2026-05-25 23:59
+  description: Conference on Sociotechnical Cybersecurity and Privacy
+  link: https://scpconf.eu/
+  name: SCP
+  place: Belval, Luxembourg
+  tags:
+  - SEC
+  - PRIV
+  - CONF
+  - OTHERS
+  year: 2026
+- date: July 6-9
+  deadline:
+  - 2025-11-27 23:59
+  - 2026-02-26 23:59
+  description: Australasian Conference on Information Security and Privacy
+  link: https://acisp.org/
+  name: ACISP
+  place: Perth, Australia
+  tags:
+  - SEC
+  - PRIV
+  - CONF
+  - OTHERS
+  year: 2026
+- date: February 3-8
+  deadline:
+  - 2024-12-09 23:59
+  description: Italian Conference on Cybersecurity
+  link: https://itasec.it/
+  name: ITASEC
+  place: Bologna, IT
+  tags:
+  - SEC
+  - CONF
+  - OTHERS
+  year: 2025
+- date: September 15-18
+  deadline:
+  - 2026-04-15 23:59
+  description: Intelligent Cybersecurity Conference
+  link: https://icsc-conference.org/2026/
+  name: ICSC
+  place: Abu Dhabi, UAE
+  tags:
+  - SEC
+  - CONF
+  - OTHERS
+  year: 2026
 - date: October 27-30
   deadline:
   - 2026-02-28 23:59
@@ -817,6 +1101,7 @@
   - SEC
   - PRIV
   - CONF
+  - CORE-C
   timezone: Asia/Tokyo
   year: 2026
 - date: March 23-25
@@ -830,19 +1115,21 @@
   - SEC
   - PRIV
   - CONF
+  - OTHERS
   year: 2026
-- date: November 12-13
+- date: November 11-12
   deadline:
-  - 2025-08-17 23:59
+  - 2026-08-17 23:59
   description: Nordic Conference on Secure IT Systems
-  link: https://nordsec2025.cs.ut.ee/
+  link: http://nordsec2026.dk/
   name: NordSec
-  place: Tartu, Estonia
+  place: Aarhus, Denmark
   tags:
   - SEC
   - PRIV
   - CONF
-  year: 2025
+  - CORE-C
+  year: 2026
 - date: July 5-6
   deadline:
   - 2026-02-05 23:59
@@ -854,31 +1141,21 @@
   - SEC
   - PRIV
   - CONF
+  - OTHERS
   year: 2026
-- comment: Abstract registration required (1 week before deadline AoE).
-  date: May 4-7
+- date: November 4-6
   deadline:
-  - 2025-08-26 23:59
-  - 2025-12-08 23:59
-  description: IEEE International Symposium on Hardware Oriented Security and Trust
-  link: http://www.hostsymposium.org/
-  name: HOST
-  place: Washington DC, USA
+  - 2026-06-01 23:59
+  - 2026-08-15 23:59
+  description: IEEE International Conference on Resilience and Integrated Security
+    for Space and Critical Systems
+  link: https://www.sis.pitt.edu/lersais/conference/risc/2026/call-for-papers/
+  name: RISC
+  place: San Jose, CA, USA
   tags:
   - SEC
   - CONF
-  year: 2026
-- date: December 11-13
-  deadline:
-  - 2026-07-14 23:59
-  description: Asian Hardware Oriented Security and Trust Symposium
-  link: https://www.asianhost.org/2026/
-  name: AsianHOST
-  place: Kharagpur, India
-  tags:
-  - SEC
-  - CONF
-  timezone: Asia/Shanghai
+  - OTHERS
   year: 2026
 - comment: Co-located with IEEE ICHI 2026.
   date: June 1
@@ -892,6 +1169,7 @@
   - SEC
   - PRIV
   - SHOP
+  - OTHERS
   year: 2026
 - comment: In conjunction with ACNS 2026
   date: June 25
@@ -904,6 +1182,7 @@
   tags:
   - SEC
   - SHOP
+  - OTHERS
   year: 2026
 - comment: In conjunction with ACNS 2026
   date: June 22
@@ -917,6 +1196,7 @@
   tags:
   - SEC
   - SHOP
+  - OTHERS
   year: 2026
 - comment: In conjunction with ACNS
   date: June 22-25
@@ -931,6 +1211,7 @@
   tags:
   - SEC
   - SHOP
+  - OTHERS
   year: 2026
 - comment: In conjunction with ACNS 2026
   date: June 2026
@@ -943,6 +1224,7 @@
   tags:
   - SEC
   - SHOP
+  - OTHERS
   year: 2026
 - comment: In conjunction with ACNS 2025
   date: June 24
@@ -955,6 +1237,7 @@
   tags:
   - CRYPTO
   - SHOP
+  - OTHERS
   year: 2025
 - comment: In conjunction with ACNS
   date: June 22-25
@@ -967,6 +1250,7 @@
   tags:
   - SEC
   - SHOP
+  - OTHERS
   year: 2026
 - comment: In conjunction with ACM CCS 2025
   date: October 17
@@ -980,6 +1264,7 @@
   - SEC
   - PRIV
   - SHOP
+  - OTHERS
   year: 2025
 - comment: Co-located with ACM CCS 2025
   date: October 17, 2025
@@ -993,6 +1278,7 @@
   - SEC
   - PRIV
   - SHOP
+  - OTHERS
   year: 2025
 - comment: In conjunction with ACM eEnergy 2026
   date: June 22
@@ -1005,6 +1291,7 @@
   tags:
   - SEC
   - SHOP
+  - OTHERS
   - PRIV
   year: 2026
 - comment: Co-located with IEEE Euro S&P
@@ -1018,6 +1305,7 @@
   tags:
   - SEC
   - SHOP
+  - OTHERS
   year: 2025
 - comment: Co-located with EuroSys 2026
   date: April 27
@@ -1031,6 +1319,7 @@
   - SEC
   - PRIV
   - SHOP
+  - OTHERS
   year: 2026
 - comment: In conjunction with ACSAC
   date: December 10
@@ -1043,6 +1332,7 @@
   tags:
   - SEC
   - SHOP
+  - OTHERS
   year: 2024
 - comment: In conjunction with ACSAC
   date: December 9
@@ -1055,6 +1345,7 @@
   tags:
   - SEC
   - SHOP
+  - OTHERS
   year: 2024
 - comment: In conjunction with CCS
   date: October 17
@@ -1068,6 +1359,7 @@
   tags:
   - SEC
   - SHOP
+  - OTHERS
   year: 2025
 - comment: In conjunction with ACM CCS
   date: October 13
@@ -1080,6 +1372,7 @@
   tags:
   - PRIV
   - SHOP
+  - OTHERS
   year: 2025
 - date: September 27 - 30
   deadline:
@@ -1092,10 +1385,11 @@
   - SEC
   - PRIV
   - SHOP
+  - OTHERS
   year: 2026
 - date: September 14 - 17
   deadline:
-  - 2025-05-11 23:59
+  - 2026-05-11 23:59
   description: IEEE Conference on Communications and Network Security
   link: https://cns2026.ieee-cns.org/
   name: CNS
@@ -1117,6 +1411,7 @@
   - SEC
   - PRIV
   - SHOP
+  - OTHERS
   year: 2025
 - comment: Collocated with FM
   date: September 9
@@ -1130,6 +1425,7 @@
   - SEC
   - PRIV
   - SHOP
+  - OTHERS
   year: 2024
 - comment: Co-located with NDSS Symposium
   date: February 23
@@ -1144,6 +1440,7 @@
   - PRIV
   - CRYPTO
   - SHOP
+  - OTHERS
   year: 2026
 - comment: Co-located with NDSS Symposium
   date: February 27
@@ -1157,6 +1454,7 @@
   - SEC
   - PRIV
   - SHOP
+  - OTHERS
   year: 2026
 - comment: Co-located with NDSS Symposium
   date: February 23
@@ -1170,6 +1468,7 @@
   - SEC
   - PRIV
   - SHOP
+  - OTHERS
   year: 2026
 - comment: Co-located with NDSS Symposium
   date: February 23
@@ -1182,6 +1481,7 @@
   tags:
   - SEC
   - SHOP
+  - OTHERS
   year: 2026
 - comment: Co-located with NDSS Symposium
   date: February 27
@@ -1194,6 +1494,7 @@
   tags:
   - SEC
   - SHOP
+  - OTHERS
   year: 2026
 - comment: Co-located with NDSS Symposium
   date: February 27
@@ -1221,6 +1522,7 @@
   - SEC
   - PRIV
   - SHOP
+  - OTHERS
   year: 2026
 - comment: Co-located with USENIX Security; up-and-coming track deadline is Mar 3
     (cycle-2)
@@ -1250,6 +1552,7 @@
   - SEC
   - PRIV
   - SHOP
+  - OTHERS
   year: 2025
 - comment: Co-located with ACM International Conference on Computing Frontiers 2026
   date: May 19
@@ -1264,6 +1567,7 @@
   - PRIV
   - CRYPTO
   - SHOP
+  - OTHERS
   year: 2026
 - date: July 4
   deadline:
@@ -1275,6 +1579,7 @@
   tags:
   - SEC
   - SHOP
+  - OTHERS
   year: 2025
 - comment: Co-located with NDSS 2026
   date: February 27
@@ -1287,6 +1592,7 @@
   tags:
   - SEC
   - SHOP
+  - OTHERS
   year: 2026
 - comment: Co-located with ESORICS 2024
   date: September 16-20
@@ -1300,6 +1606,7 @@
   - SEC
   - PRIV
   - SHOP
+  - OTHERS
   year: 2024
 - comment: Co-located with ACM CCS '24
   date: October 18
@@ -1312,6 +1619,7 @@
   tags:
   - SEC
   - SHOP
+  - OTHERS
   year: 2024
 - comment: Co-located with ACM CCS '24
   date: October 18
@@ -1325,6 +1633,7 @@
   tags:
   - SEC
   - SHOP
+  - OTHERS
   year: 2024
 - comment: Co-located with ESORICS 2025
   date: September 25
@@ -1338,6 +1647,7 @@
   - SEC
   - PRIV
   - SHOP
+  - OTHERS
   year: 2025
 - comment: Co-located with ESORICS 2025
   date: September 25
@@ -1351,6 +1661,7 @@
   - SEC
   - CRYPTO
   - SHOP
+  - OTHERS
   year: 2025
 - comment: Co-located with IEEE BigData 2024
   date: December 15-18
@@ -1363,6 +1674,7 @@
   tags:
   - SEC
   - SHOP
+  - OTHERS
   year: 2024
 - date: December 16-20
   deadline:
@@ -1388,6 +1700,7 @@
   - SEC
   - PRIV
   - SHOP
+  - OTHERS
   year: 2026
 - comment: Co-located with ACM AsiaCCS
   date: June 2
@@ -1401,6 +1714,7 @@
   - SEC
   - PRIV
   - SHOP
+  - OTHERS
   year: 2026
 - date: June 30
   deadline:
@@ -1425,6 +1739,7 @@
   - PRIV
   - CRYPTO
   - SHOP
+  - OTHERS
   year: 2026
 - comment: Co-located with ACSAC
   date: December 8
@@ -1437,6 +1752,7 @@
   tags:
   - SEC
   - SHOP
+  - OTHERS
   year: 2025
 - comment: Co-located with IEEE ISCC 2026
   date: June 23-26
@@ -1451,6 +1767,7 @@
   - PRIV
   - CRYPTO
   - SHOP
+  - OTHERS
   year: 2026
 - comment: Co-located with ACM CCS 2025
   date: October 17
@@ -1466,6 +1783,7 @@
   - PRIV
   - CRYPTO
   - SHOP
+  - OTHERS
   year: 2025
 - comment: Co-located with ACM CCS 2025
   date: October 17
@@ -1479,6 +1797,7 @@
   - SEC
   - PRIV
   - SHOP
+  - OTHERS
   year: 2025
 - date: November 5–6
   deadline:
@@ -1507,6 +1826,7 @@
   - PRIV
   - CRYPTO
   - SHOP
+  - OTHERS
   year: 2025
 - comment: Initial submission with abstract required Oct 31st.
   date: April 14-16
@@ -1532,6 +1852,7 @@
   - SEC
   - PRIV
   - SHOP
+  - OTHERS
   year: 2025
 - comment: Co-located with CIFRIS. Paper registration due Jul 25 AoE
   date: September 27
@@ -1545,6 +1866,7 @@
   - SEC
   - CRYPTO
   - SHOP
+  - OTHERS
   year: 2024
 - comment: Co-located with NDSS Symposium
   date: February 23
@@ -1558,6 +1880,7 @@
   - SEC
   - PRIV
   - SHOP
+  - OTHERS
   year: 2026
 - comment: Co-located with ICCCN 2025.
   date: August 4-7
@@ -1571,20 +1894,8 @@
   - SEC
   - PRIV
   - SHOP
+  - OTHERS
   year: 2025
-- comment: Co-located with USENIX Security 2026
-  date: August 10-11
-  deadline:
-  - 2026-02-24 23:59
-  description: USENIX Symposium on Vehicle Security and Privacy
-  link: https://www.usenix.org/conference/vehiclesec26
-  name: VehicleSec
-  place: Baltimore, USA
-  tags:
-  - SEC
-  - PRIV
-  - CONF
-  year: 2026
 - date: June 23-25
   deadline:
   - 2025-01-31 23:59
@@ -1596,6 +1907,7 @@
   - SEC
   - PRIV
   - SHOP
+  - OTHERS
   year: 2025
 - comment: Co-Located with IEEE European Symposium on Security and Privacy (EuroS&P).
   date: July 10
@@ -1609,6 +1921,7 @@
   - SEC
   - PRIV
   - SHOP
+  - OTHERS
   year: 2026
 - date: June 5-6
   deadline:
@@ -1636,6 +1949,7 @@
   - SEC
   - PRIV
   - SHOP
+  - OTHERS
   year: 2026
 - comment: Co-located with ACM AsiaCCS 2026
   date: June 2
@@ -1649,21 +1963,23 @@
   - SEC
   - CRYPTO
   - SHOP
+  - OTHERS
   year: 2026
-- comment: Co-located with ESORICS 2025
-  date: September 25-26
+- comment: Co-located with ESORICS 2026
+  date: September 14-18
   deadline:
-  - 2025-06-30 23:59
+  - 2026-06-30 23:59
   description: Workshop on Mobile and IoT Security Technologies
   link: https://mist-workshop.github.io/
   name: MIST
-  place: Toulouse, France
+  place: Rome, Italy
   tags:
   - SEC
   - PRIV
   - CRYPTO
   - SHOP
-  year: 2025
+  - OTHERS
+  year: 2026
 - date: February 3
   deadline:
   - 2025-07-15 23:59
@@ -1678,19 +1994,20 @@
   - CONF
   - CRYPTO
   year: 2026
-- comment: Co-located with ESORICS 25.
-  date: September 25
+- comment: Co-located with ESORICS 26.
+  date: September 14
   deadline:
-  - 2025-06-13 23:59
+  - 2026-06-19 23:59
   description: Workshop on Hardware-Supported Software Security
-  link: https://hs3-workshop.github.io/
+  link: https://hs3-workshop.github.io/2026.html
   name: HS3
-  place: Toulouse, France
+  place: Rome, Italy
   tags:
   - SEC
   - PRIV
   - SHOP
-  year: 2025
+  - OTHERS
+  year: 2026
 - comment: In conjunction with IEEE CNS
   date: September 11
   deadline:
@@ -1702,6 +2019,7 @@
   tags:
   - SEC
   - SHOP
+  - OTHERS
   year: 2025
 - comment: Co-located with CHES 25.
   date: September 14
@@ -1716,6 +2034,7 @@
   - CRYPTO
   - SEC
   - SHOP
+  - OTHERS
   year: 2025
 - comment: Co-located with ACM CCS 2025
   date: October 17
@@ -1729,6 +2048,7 @@
   - SEC
   - PRIV
   - SHOP
+  - OTHERS
   year: 2025
 - comment: Co-located with ACM CCS 2025
   date: October 13
@@ -1741,6 +2061,7 @@
   tags:
   - SEC
   - SHOP
+  - OTHERS
   year: 2025
 - comment: Co-located with BCCA 2025
   date: October 14-17
@@ -1755,6 +2076,7 @@
   - PRIV
   - CRYPTO
   - SHOP
+  - OTHERS
   year: 2025
 - comment: Co-located with ACM CCS 2025
   date: October 13
@@ -1767,6 +2089,7 @@
   tags:
   - SEC
   - SHOP
+  - OTHERS
   year: 2025
 - date: December 2-4
   deadline:
@@ -1801,6 +2124,7 @@
   tags:
   - SEC
   - SHOP
+  - OTHERS
   year: 2026
 - comment: Co-located with ACNS 2026
   date: June 23-26
@@ -1815,6 +2139,7 @@
   - PRIV
   - CRYPTO
   - SHOP
+  - OTHERS
   year: 2026
 - comment: Co-located with EuroCrypt 2026
   date: May 10
@@ -1828,6 +2153,7 @@
   - SEC
   - CRYPTO
   - SHOP
+  - OTHERS
   timezone: UTC
   year: 2026
 - comment: Co-located with EDCC 2026 (21st European Dependable Computing Conference)
@@ -1841,6 +2167,7 @@
   tags:
   - SEC
   - SHOP
+  - OTHERS
   timezone: UTC
   year: 2026
 - date: April 20-21
@@ -1854,6 +2181,7 @@
   - SEC
   - PRIV
   - SHOP
+  - OTHERS
   year: 2026
 - comment: Co-located with IEEE S&P 2026
   date: May 21, 2026
@@ -1867,6 +2195,7 @@
   - SEC
   - PRIV
   - SHOP
+  - OTHERS
   timezone: UTC
   year: 2026
 - comment: Co-located with IEEE ICC 2026
@@ -1882,6 +2211,7 @@
   - SEC
   - PRIV
   - SHOP
+  - OTHERS
   year: 2026
 - comment: Co-located with IEEE S&P 2026
   date: May 21, 2026
@@ -1895,6 +2225,7 @@
   - SEC
   - PRIV
   - SHOP
+  - OTHERS
   year: 2026
 - comment: Co-Located with IEEE European Symposium on Security and Privacy
   date: July 10
@@ -1908,6 +2239,7 @@
   - SEC
   - PRIV
   - SHOP
+  - OTHERS
   year: 2025
 - comment: Co-located with IEEE Euro S&P
   date: July 04
@@ -1920,6 +2252,7 @@
   tags:
   - SEC
   - SHOP
+  - OTHERS
   year: 2025
 - comment: Co-located with NDSS Symposium
   date: February 28
@@ -1935,6 +2268,7 @@
   - SEC
   - CRYPTO
   - SHOP
+  - OTHERS
   year: 2025
 - comment: Co-located with ARES
   date: August 24-27
@@ -1949,6 +2283,7 @@
   - PRIV
   - CRYPTO
   - SHOP
+  - OTHERS
   year: 2026
 - comment: Co-located with ARES
   date: August 24-27
@@ -1961,6 +2296,7 @@
   tags:
   - SEC
   - SHOP
+  - OTHERS
   year: 2026
 - comment: Co-located with ARES
   date: August 24-27
@@ -1975,6 +2311,7 @@
   - SEC
   - PRIV
   - SHOP
+  - OTHERS
   year: 2026
 - comment: Co-located with ARES
   date: August 24-27
@@ -1988,6 +2325,7 @@
   - SEC
   - PRIV
   - SHOP
+  - OTHERS
   year: 2026
 - comment: Co-located with ARES
   date: August 24-27
@@ -2002,6 +2340,7 @@
   - PRIV
   - CRYPTO
   - SHOP
+  - OTHERS
   year: 2026
 - comment: Co-located with ARES
   date: August 24-27
@@ -2014,6 +2353,7 @@
   tags:
   - SEC
   - SHOP
+  - OTHERS
   year: 2026
 - comment: Co-located with ARES
   date: August 24-27
@@ -2028,6 +2368,7 @@
   - SEC
   - PRIV
   - SHOP
+  - OTHERS
   year: 2026
 - comment: Co-located with ARES
   date: August 24-27
@@ -2041,6 +2382,7 @@
   - SEC
   - PRIV
   - SHOP
+  - OTHERS
   year: 2026
 - comment: Co-located with ARES
   date: August 24-27
@@ -2054,6 +2396,7 @@
   tags:
   - SEC
   - SHOP
+  - OTHERS
   year: 2026
 - comment: Co-located with ARES
   date: August 24-27
@@ -2068,6 +2411,7 @@
   - PRIV
   - CRYPTO
   - SHOP
+  - OTHERS
   year: 2026
 - comment: Co-located with ARES
   date: August 24-27
@@ -2081,6 +2425,7 @@
   - SEC
   - CRYPTO
   - SHOP
+  - OTHERS
   year: 2026
 - comment: Co-located with ARES
   date: August 24-27
@@ -2093,6 +2438,7 @@
   tags:
   - SEC
   - SHOP
+  - OTHERS
   year: 2026
 - comment: Co-located with ARES
   date: August 24-27
@@ -2107,6 +2453,7 @@
   - PRIV
   - CRYPTO
   - SHOP
+  - OTHERS
   year: 2026
 - comment: Co-located with ARES
   date: August 24-27
@@ -2121,6 +2468,7 @@
   - SEC
   - CRYPTO
   - SHOP
+  - OTHERS
   year: 2026
 - comment: Co-located with ARES
   date: August 24-27
@@ -2135,6 +2483,7 @@
   - SEC
   - PRIV
   - SHOP
+  - OTHERS
   year: 2026
 - comment: Co-located with ARES
   date: August 24-27
@@ -2149,6 +2498,7 @@
   - SEC
   - PRIV
   - SHOP
+  - OTHERS
   year: 2026
 - comment: Co-located with ARES
   date: August 24-27
@@ -2161,6 +2511,7 @@
   tags:
   - SEC
   - SHOP
+  - OTHERS
   year: 2026
 - comment: Co-located with ARES
   date: August 24-27
@@ -2174,6 +2525,7 @@
   - SEC
   - PRIV
   - SHOP
+  - OTHERS
   year: 2026
 - comment: Co-located with ARES
   date: August 24-27
@@ -2186,6 +2538,7 @@
   tags:
   - SEC
   - SHOP
+  - OTHERS
   year: 2026
 - comment: Co-located with ARES
   date: August 24-27
@@ -2200,6 +2553,7 @@
   - SEC
   - PRIV
   - SHOP
+  - OTHERS
   year: 2026
 - comment: Co-located with ARES
   date: August 24-27
@@ -2212,6 +2566,7 @@
   tags:
   - SEC
   - SHOP
+  - OTHERS
   year: 2026
 - comment: Co-located with ARES
   date: August 24-27
@@ -2227,6 +2582,22 @@
   - PRIV
   - CRYPTO
   - SHOP
+  - OTHERS
+  year: 2026
+- comment: Co-located with ARES
+  date: August 24-27
+  deadline:
+  - 2026-05-10 23:59
+  description: 'Workshop on Agentic AI for Cybersecurity: Offensive and Defensive
+    Perspectives'
+  link: https://www.ares-conference.eu/agentcy
+  name: AgentCy
+  place: Linköping, SE
+  tags:
+  - SEC
+  - PRIV
+  - SHOP
+  - OTHERS
   year: 2026
 - comment: Co-located with ICST
   date: May 18 - 22
@@ -2241,6 +2612,7 @@
   - SEC
   - PRIV
   - SHOP
+  - OTHERS
   year: 2026
 - date: September 01-03
   deadline:
@@ -2254,6 +2626,7 @@
   - SEC
   - PRIV
   - SHOP
+  - OTHERS
   - CRYPTO
   year: 2025
 - date: May 23
@@ -2266,6 +2639,7 @@
   tags:
   - SEC
   - SHOP
+  - OTHERS
   year: 2025
 - comment: Co-located with Sensys at Cyber-Physical Systems and Internet-of-Things
     Week
@@ -2280,6 +2654,7 @@
   - SEC
   - PRIV
   - SHOP
+  - OTHERS
   year: 2025
 - comment: Co-located with CCS 2025
   date: October 13
@@ -2293,6 +2668,7 @@
   - SEC
   - PRIV
   - SHOP
+  - OTHERS
   year: 2025
 - comment: Abstract submission. Once accepted, full papers due July 30.
   date: August 10-14
@@ -2305,4 +2681,18 @@
   tags:
   - PRIV
   - SHOP
+  - OTHERS
+  year: 2026
+- comment: Co-located with ESORICS 2026
+  date: September 18
+  deadline:
+  - 2026-06-10 23:59
+  description: Workshop on Active Defense and Deception
+  link: https://adnd.work
+  name: ADND
+  place: Rome, Italy
+  tags:
+  - SEC
+  - SHOP
+  - OTHERS
   year: 2026
