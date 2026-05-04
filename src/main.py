@@ -23,7 +23,7 @@ def load_config():
         'from_email': os.getenv('FROM_EMAIL'),
         'to_email': os.getenv('TO_EMAIL'),
         'from_name': os.getenv('FROM_NAME', 'Conference Deadline Bot'),
-        'days_ahead': int(os.getenv('DAYS_AHEAD', '30')),
+        'days_ahead': int(os.getenv('DAYS_AHEAD', '60')),
     }
 
     # Validate required config

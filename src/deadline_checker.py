@@ -23,7 +23,7 @@ class DeadlineChecker:
     def _is_submission_deadline(dl_type: str) -> bool:
         return dl_type in SUBMISSION_TYPES or dl_type.startswith('deadline')
 
-    def get_upcoming_deadlines(self, days: int = 30) -> List[Dict[str, Any]]:
+    def get_upcoming_deadlines(self, days: int = 60) -> List[Dict[str, Any]]:
         """
         Get all conferences whose submission deadline (abstract or paper) falls
         within the next N days.

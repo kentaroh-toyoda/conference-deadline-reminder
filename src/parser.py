@@ -153,7 +153,7 @@ class Conference:
         except Exception:
             return ZoneInfo('UTC')
 
-    def get_upcoming_deadlines(self, days: int = 30) -> List[Dict[str, Any]]:
+    def get_upcoming_deadlines(self, days: int = 60) -> List[Dict[str, Any]]:
         """Get deadlines within the next N days."""
         now = datetime.now(ZoneInfo('UTC'))
         upcoming = []
