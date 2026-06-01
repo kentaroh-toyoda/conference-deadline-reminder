@@ -49,7 +49,7 @@
   - ASTAR
   - TOP4
   year: 2027
-- date: TBD
+- date: March 22-26
   dblp: https://dblp.org/db/conf/ndss/index.html
   deadline:
   - 2026-05-06 23:59
@@ -57,7 +57,7 @@
   description: ISOC Network and Distributed System Security Symposium
   link: https://www.ndss-symposium.org/ndss2027/submissions/call-for-papers/
   name: NDSS
-  place: TBD
+  place: Seoul, Republic of Korea
   tags:
   - SEC
   - PRIV
@@ -243,7 +243,7 @@
   - CORE-C
   year: 2026
 - comment: Rolling deadline every quarter
-  date: TBD
+  date: TBA
   dblp: https://dblp.org/db/conf/pet/index.html
   deadline:
   - '%Y-05-31 23:59'
@@ -251,9 +251,9 @@
   - '%Y-11-30 23:59'
   - '%y-02-28 23:59'
   description: Privacy Enhancing Technologies Symposium
-  link: https://www.petsymposium.org/cfp26.php
+  link: https://www.petsymposium.org/cfp27.php
   name: PETS
-  place: TBD
+  place: TBA (Europe)
   tags:
   - PRIV
   - CONF
@@ -429,19 +429,19 @@
   - CONF
   - CORE-B
   year: 2026
-- date: May 25-28
+- date: March 1-4
   dblp: https://dblp.org/db/conf/pkc/index.html
   deadline:
-  - 2025-10-24 09:59
+  - 2026-08-03 23:59
   description: International Conference on Practice and Theory of Public Key Cryptography
-  link: https://pkc.iacr.org/2026/
+  link: https://pkc.iacr.org/2027/
   name: PKC
-  place: West Palm Beach, FL, USA
+  place: Taipei, Taiwan
   tags:
   - CRYPTO
   - CONF
   - CORE-B
-  year: 2026
+  year: 2027
 - date: March 23-26
   dblp: https://dblp.org/db/conf/ctrsa/index.html
   deadline:
@@ -614,21 +614,21 @@
   - CONF
   - CORE-A
   year: 2026
-- date: June 22-25
+- date: June 28 - July 1
   dblp: https://dblp.org/db/conf/acns/index.html
   deadline:
-  - 2025-09-25 23:59
-  - 2026-01-23 23:59
+  - 2026-09-24 23:59
+  - 2027-01-21 23:59
   description: International Conference on Applied Cryptography and Network Security
-  link: https://acns2026.github.io/
+  link: https://acns2027.isg.rhul.ac.uk/
   name: ACNS
-  place: New York, NY
+  place: Egham, Surrey, UK
   tags:
   - CRYPTO
   - SEC
   - CONF
   - CORE-B
-  year: 2026
+  year: 2027
 - date: July 01-03
   dblp: https://dblp.org/db/conf/dimva/index.html
   deadline:
@@ -1157,6 +1157,21 @@
   - CONF
   - OTHERS
   year: 2026
+- comment: Co-located with ESORICS 2026.
+  date: September 14-18
+  deadline:
+  - 2026-06-12 23:59
+  description: Assessment with New methodologies, Unified Benchmarks, and environments,
+    of Intrusion detection and response Systems
+  link: https://superviz.inria.fr/anubis26/
+  name: ANUBIS
+  place: Rome, Italy
+  tags:
+  - SEC
+  - PRIV
+  - SHOP
+  - OTHERS
+  year: 2026
 - comment: Co-located with IEEE ICHI 2026.
   date: June 1
   deadline:
@@ -1252,20 +1267,20 @@
   - SHOP
   - OTHERS
   year: 2026
-- comment: In conjunction with ACM CCS 2025
-  date: October 17
+- comment: In conjunction with ACM CCS 2026
+  date: November 15-19
   deadline:
-  - 2025-06-20 23:59
+  - 2026-06-30 23:59
   description: The Joint Workshop on CPS & IoT Security and Privacy
-  link: https://cpsiotsec2025.github.io/
+  link: https://sites.google.com/view/cpsiotsec2026
   name: CPSIoTSec
-  place: Taipei, Taiwan
+  place: The Hague, The Netherlands
   tags:
   - SEC
   - PRIV
   - SHOP
   - OTHERS
-  year: 2025
+  year: 2026
 - comment: Co-located with ACM CCS 2025
   date: October 17, 2025
   deadline:
@@ -1389,7 +1404,7 @@
   year: 2026
 - date: September 14 - 17
   deadline:
-  - 2026-05-11 23:59
+  - 2026-05-18 23:59
   description: IEEE Conference on Communications and Network Security
   link: https://cns2026.ieee-cns.org/
   name: CNS
@@ -1635,34 +1650,34 @@
   - SHOP
   - OTHERS
   year: 2024
-- comment: Co-located with ESORICS 2025
-  date: September 25
+- comment: Co-located with ESORICS 2026
+  date: September 26
   deadline:
-  - 2025-06-30 23:59
+  - 2026-06-16 23:59
   description: Data Privacy Management International Workshop
-  link: https://deic.uab.cat/dpm/dpm2025/
+  link: https://deic.uab.cat/dpm/dpm2026/
   name: DPM
-  place: Toulouse, France
+  place: Rome, Italy
   tags:
   - SEC
   - PRIV
   - SHOP
   - OTHERS
-  year: 2025
-- comment: Co-located with ESORICS 2025
-  date: September 25
+  year: 2026
+- comment: Co-located with ESORICS 2026
+  date: September 26
   deadline:
-  - 2025-06-30 23:59
+  - 2026-06-17 23:59
   description: International Workshop on Cryptocurrencies and Blockchain Technology
   link: http://cbtworkshop.org/
   name: CBT
-  place: Toulouse, France
+  place: Rome, Italy
   tags:
   - SEC
   - CRYPTO
   - SHOP
   - OTHERS
-  year: 2025
+  year: 2026
 - comment: Co-located with IEEE BigData 2024
   date: December 15-18
   deadline:
@@ -1801,7 +1816,7 @@
   year: 2025
 - date: November 5–6
   deadline:
-  - 2026-05-01 23:59
+  - 2026-05-08 23:59
   - 2026-07-16 23:59
   description: EAI International Conference on Security and Privacy in Cyber-Physical
     Systems and Smart Vehicles
@@ -2021,35 +2036,35 @@
   - SHOP
   - OTHERS
   year: 2025
-- comment: Co-located with CHES 25.
-  date: September 14
+- comment: Co-located with CHES 26.
+  date: October 11
   deadline:
-  - 2025-07-14 23:59
+  - 2026-06-21 23:59
   description: Workshop on Open Tools, Interfaces and Metrics for Implementation Security
     Testing
-  link: https://optimist-ose.org/ches25
+  link: https://optimist-ose.org/ches26
   name: OPTIMIST
-  place: Kuala Lumpur, Malaysia
+  place: Antalya, Türkiye
   tags:
   - CRYPTO
   - SEC
   - SHOP
   - OTHERS
-  year: 2025
-- comment: Co-located with ACM CCS 2025
-  date: October 17
+  year: 2026
+- comment: Co-located with COLM 2026
+  date: October 9
   deadline:
-  - 2025-06-20 23:59
-  description: Workshop on Human-Centered AI Privacy and Security
+  - 2026-06-23 23:59
+  description: Workshop on Human-Centered Privacy and Security for Language Models
   link: https://haips.com
   name: HAIPS
-  place: Taipei, Taiwan
+  place: San Francisco, CA, USA
   tags:
   - SEC
   - PRIV
   - SHOP
   - OTHERS
-  year: 2025
+  year: 2026
 - comment: Co-located with ACM CCS 2025
   date: October 13
   deadline:
@@ -2416,7 +2431,7 @@
 - comment: Co-located with ARES
   date: August 24-27
   deadline:
-  - 2026-05-04 23:59
+  - 2026-05-18 23:59
   description: International Workshop on Applied Trust and Cyber Resilience
   link: https://www.ares-conference.eu/cyrestrust
   name: CyResTrust
@@ -2488,7 +2503,7 @@
 - comment: Co-located with ARES
   date: August 24-27
   deadline:
-  - 2026-05-04 23:59
+  - 2026-05-18 23:59
   description: Workshop on Sustainable Security And Awareness For Next Generation
     Infrastructures
   link: https://www.ares-conference.eu/safer
@@ -2587,7 +2602,7 @@
 - comment: Co-located with ARES
   date: August 24-27
   deadline:
-  - 2026-05-10 23:59
+  - 2026-05-18 23:59
   description: 'Workshop on Agentic AI for Cybersecurity: Offensive and Defensive
     Perspectives'
   link: https://www.ares-conference.eu/agentcy
@@ -2691,6 +2706,47 @@
   link: https://adnd.work
   name: ADND
   place: Rome, Italy
+  tags:
+  - SEC
+  - SHOP
+  - OTHERS
+  year: 2026
+- comment: Co-located with MobiCom
+  date: October 30
+  deadline:
+  - 2026-06-19 23:59
+  description: Workshop on Enhancing Security, Privacy, and Trust in Extended Reality
+    (XR) Systems
+  link: https://xrsecurity.github.io/2026/
+  name: XR Security
+  place: Austin, USA
+  tags:
+  - SEC
+  - PRIV
+  - SHOP
+  year: 2026
+- date: December 7-11
+  deadline:
+  - 2026-07-15 23:59
+  description: IEEE International Workshop on Information Forensics and Security
+  link: https://wifs2026.utt.fr/
+  name: WIFS
+  place: Sendai, Japan
+  tags:
+  - SEC
+  - PRIV
+  - SHOP
+  - OTHERS
+  year: 2026
+- comment: Co-located with CCS 2026
+  date: December 7-11
+  deadline:
+  - 2026-07-13 23:59
+  description: ACM Technical Analysis and Knowledge Exchange on Disrupting Online
+    Criminal Networks
+  link: https://takedown-workshop.com/
+  name: TAKEDOWN
+  place: The Hague, The Netherlands
   tags:
   - SEC
   - SHOP

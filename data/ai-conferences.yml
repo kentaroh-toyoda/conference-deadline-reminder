@@ -876,6 +876,7 @@
   tags:
   - machine-learning
   title: COLT
+  venue: Bahia Resort Hotel
   year: 2026
 - city: Vienna
   country: Austria
@@ -917,7 +918,7 @@
     label: Notification of acceptance
     timezone: AoE
     type: notification
-  - date: '2026-05-12 23:59:59'
+  - date: '2026-05-18 23:59:59'
     label: Camera-ready papers due
     timezone: AoE
     type: camera_ready
@@ -1248,7 +1249,7 @@
   year: 2026
 - city: Malmö
   country: Sweden
-  date: September 8-13, 2026
+  date: September 8-12, 2026
   deadlines:
   - date: '2026-02-15 23:59:59'
     label: Tutorial Proposal Submission
@@ -1282,6 +1283,10 @@
     label: Rebuttal Deadline
     timezone: UTC
     type: rebuttal_end
+  - date: '2026-06-14 23:59:59'
+    label: AI Art Submission
+    timezone: AoE
+    type: submission
   - date: '2026-06-17 23:59:59'
     label: Final Decisions
     timezone: UTC
@@ -1290,7 +1295,11 @@
     label: Camera Ready Deadline
     timezone: AoE
     type: camera_ready
-  end: 2026-09-13
+  - date: '2026-06-29 23:59:59'
+    label: AI Art Acceptance Notification
+    timezone: AoE
+    type: notification
+  end: 2026-09-12
   era_rating: a
   full_name: European Conference on Computer Vision
   id: eccv26
@@ -1848,9 +1857,9 @@
     timezone: AoE
     type: review_release
   - date: '2026-04-24 23:59:59'
-    label: Rebuttal period
+    label: Rebuttal period ends
     timezone: AoE
-    type: rebuttal_start
+    type: rebuttal_end
   - date: '2026-05-15 23:59:59'
     label: Acceptance notification
     timezone: AoE
@@ -1871,6 +1880,19 @@
   title: ICDAR
   venue: TU Wien, Campus Gußhaus
   year: 2026
+- city: Kuala Lumpur
+  country: Malaysia
+  date: August 18-22, 2027
+  end: 2027-08-22
+  full_name: International Conference on Document Analysis and Recognition
+  id: icdar2027
+  link: https://icdar2027.org/
+  rankings: 'CCF: C, CORE: A, THCPL: B'
+  start: 2027-08-18
+  tags:
+  - computer-vision
+  title: ICDAR
+  year: 2027
 - city: Washington DC
   country: USA
   date: November 12 - 15, 2025
@@ -2334,7 +2356,7 @@
   year: 2026
 - city: Sydney
   country: Australia
-  date: September 27-October 1, 2026
+  date: September 28-October 1, 2026
   deadlines:
   - date: '2026-02-25 23:59:59'
     label: Paper submission deadline
@@ -2365,7 +2387,7 @@
   full_name: Interspeech
   id: interspeech2026
   link: https://interspeech2026.org
-  start: 2026-09-27
+  start: 2026-09-28
   tags:
   - speech
   - signal-processing
@@ -2507,6 +2529,26 @@
   country: Korea
   date: August 9 - 13, 2026
   deadlines:
+  - date: '2025-07-24 23:59:59'
+    label: Abstract submission (First Cycle)
+    timezone: AoE
+    type: abstract
+  - date: '2025-07-31 23:59:59'
+    label: Paper submission (First Cycle)
+    timezone: AoE
+    type: paper
+  - date: '2025-10-04 23:59:59'
+    label: Rebuttal period start (First Cycle)
+    timezone: AoE
+    type: rebuttal_start
+  - date: '2025-10-18 23:59:59'
+    label: Rebuttal period end (First Cycle)
+    timezone: AoE
+    type: rebuttal_end
+  - date: '2025-11-23 23:59:59'
+    label: Notification (First Cycle)
+    timezone: AoE
+    type: notification
   - date: '2026-02-01 23:59:59'
     label: Abstract submission (Second Cycle)
     timezone: AoE
@@ -2516,15 +2558,15 @@
     timezone: AoE
     type: paper
   - date: '2026-04-04 23:59:59'
-    label: Rebuttal period start
+    label: Rebuttal period start (Second Cycle)
     timezone: AoE
     type: rebuttal_start
   - date: '2026-04-17 23:59:59'
-    label: Rebuttal period end
+    label: Rebuttal period end (Second Cycle)
     timezone: AoE
     type: rebuttal_end
   - date: '2026-05-16 23:59:59'
-    label: Notification
+    label: Notification (Second Cycle)
     timezone: AoE
     type: notification
   end: '2026-08-13'
@@ -2533,8 +2575,9 @@
   hindex: 124
   id: kdd26
   link: https://kdd2026.kdd.org/
-  note: Second cycle deadlines shown. First cycle deadlines were July 24/31, 2025.
-    AI for Sciences Track accepts submissions only in second cycle.
+  note: KDD 2026 has two submission cycles. First cycle deadlines were July 24/31,
+    2025. Second cycle deadlines are February 1/8, 2026. AI for Sciences Track accepts
+    submissions only in second cycle.
   start: '2026-08-09'
   tags:
   - data-mining
@@ -2691,6 +2734,14 @@
     label: Supplementary materials deadline
     timezone: AoE
     type: supplementary
+  - date: '2025-07-24 00:00:00'
+    label: Author rebuttal begins
+    timezone: AoE
+    type: rebuttal_start
+  - date: '2025-07-30 23:59:59'
+    label: Author rebuttal ends
+    timezone: AoE
+    type: rebuttal_end
   - date: '2025-09-18 23:59:59'
     label: Author notification
     timezone: AoE
@@ -3239,6 +3290,64 @@
   title: WACV
   venue: JW Marriott Starpass in Tucson, Arizona, USA
   year: 2026
+- city: Buena Vista, FL
+  country: USA
+  date: January 5 - January 9, 2027
+  deadlines:
+  - date: '2026-06-18 23:59:59'
+    label: Round 1 Paper Registration
+    timezone: AoE
+    type: registration
+  - date: '2026-06-25 23:59:59'
+    label: Round 1 Paper Submission
+    timezone: AoE
+    type: submission
+  - date: '2026-08-08 02:39:00'
+    label: Round 1 Reviews and Decisions To Authors
+    timezone: America/New_York
+    type: review_release
+  - date: '2026-08-20 23:59:59'
+    label: Round 1 Rebuttal and Revision Submission
+    timezone: AoE
+    type: rebuttal_and_revision
+  - date: '2026-08-20 23:59:59'
+    label: Round 2 New Paper Registration
+    timezone: AoE
+    type: registration
+  - date: '2026-08-27 23:59:59'
+    label: Round 2 Paper Submissions
+    timezone: AoE
+    type: submission
+  - date: '2026-08-29 23:59:59'
+    label: Round 2 Supplemental Material
+    timezone: AoE
+    type: supplementary
+  - date: '2026-10-09 03:59:00'
+    label: Round 2 Reviews and Final Decisions to Authors
+    timezone: America/New_York
+    type: notification
+  - date: '2026-10-09 03:59:00'
+    label: Round 1 Final Decisions Released to Authors
+    timezone: America/New_York
+    type: notification
+  - date: '2026-11-01 23:59:59'
+    label: Camera Ready Both Rounds
+    timezone: AoE
+    type: camera_ready
+  end: 2027-01-09
+  era_rating: a
+  full_name: IEEE/CVF Winter Conference on Applications of Computer Vision
+  hindex: 131
+  id: wacv27
+  link: https://wacv.thecvf.com/
+  rankings: 'CCF: N, CORE: A, THCPL: N'
+  start: 2027-01-05
+  tags:
+  - machine-learning
+  - computer-vision
+  title: WACV
+  venue: Disney Springs, Buena Vista, FL
+  year: 2027
 - city: Hannover
   country: Germany
   date: March 10-14, 2025
